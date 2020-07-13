@@ -1,0 +1,18 @@
+
+def test_define_date_plus_interval():
+    test_cases = [{"test_name": "data_correta",
+                  "starting_date": "31/03/2020",
+                   "interval": "-30",
+                   "expected_result": "01.03.2020"}]
+    results = []
+    expected_results = []
+    func_tobe_tested = define_date_plus_interval
+    for test_case in test_cases:
+        results.append(func_tobe_tested(test_case["starting_date"],test_case["interval"]))
+        expected_results.append(test_case["expected_result"])  
+    print("unity test: {}".format(func_tobe_tested.__name__))
+    print("results {}".format(results))
+    print("expected_results {}".format(expected_results))
+    assert results == expected_results
+    print("Teste bem sucedido")
+    return

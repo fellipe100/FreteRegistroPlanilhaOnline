@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0"><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="configparser.MissingSectionHeaderError" message="File contains no section headers.&#10;file: 'config.ini', line: 1&#10;'ï»¿[CONTROLE]\n'"><![CDATA[Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\nose\failure.py", line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\nose\loader.py", line 417, in loadTestsFromName
+    addr.filename, addr.module)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\nose\importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "C:\ProgramData\Anaconda3\lib\imp.py", line 234, in load_module
+    return load_source(name, filename, file)
+  File "C:\ProgramData\Anaconda3\lib\imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\BPAEngine\git\FreteRegistroPlanilhaOnline-\src\emailfinalizado.py", line 2, in <module>
+    import pieces
+  File "C:\BPAEngine\git\FreteRegistroPlanilhaOnline-\src\pieces.py", line 13, in <module>
+    import lib
+  File "C:\BPAEngine\git\FreteRegistroPlanilhaOnline-\src\lib.py", line 25, in <module>
+    config.read('config.ini')
+  File "C:\ProgramData\Anaconda3\lib\configparser.py", line 696, in read
+    self._read(fp, filename)
+  File "C:\ProgramData\Anaconda3\lib\configparser.py", line 1079, in _read
+    raise MissingSectionHeaderError(fpname, lineno, line)
+configparser.MissingSectionHeaderError: File contains no section headers.
+file: 'config.ini', line: 1
+'ï»¿[CONTROLE]\n'
+]]></error></testcase></testsuite>

@@ -1,0 +1,1875 @@
+2020/07/10 21:48:44 -                                         
+2020/07/10 21:48:44 -  _____ _____ _____    _____         _   
+2020/07/10 21:48:44 - | __  |  _  |  _  |  |_   _|___ ___| |_ 
+2020/07/10 21:48:44 - | __ -|   __|     |    | | | -_|  _|   |
+2020/07/10 21:48:44 - |_____|__|  |__|__|    |_| |___|___|_|_|
+2020/07/10 21:48:44 - |				ROBOT LOG			   |
+2020/07/10 21:48:44 -                                         
+2020/07/10 21:48:44 - TailLog desligado!
+2020/07/10 21:48:44 - Inserindo dados no Brain
+2020/07/10 21:48:45 - Inserindo dados no Brain
+2020/07/10 21:48:45 - Suporte ao multiProcessos DESATIVADO!
+2020/07/10 21:48:45 - stepTo >>> turnOn
+2020/07/10 21:48:45 - turnOn
+2020/07/10 21:48:45 - finalizing stepTo - where:turnOn, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:48:45 - workingUpdate: 
+2020/07/10 21:48:45 - Pegando as informações do processo no Brain
+2020/07/10 21:48:46 - Inserindo dados no Brain
+2020/07/10 21:48:46 - Id do agente: 11
+2020/07/10 21:48:46 - Inserindo dados no Brain
+2020/07/10 21:48:47 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:48:47 - stepTo >>> preparaAmbiente
+2020/07/10 21:48:48 - preparaAmbiente
+2020/07/10 21:48:48 - Transformando step em PEP8
+2020/07/10 21:48:48 - Existe o python
+2020/07/10 21:48:48 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:48:48 - Executando o Python
+2020/07/10 21:48:49 - Resultado do Shell >>> 
+2020/07/10 21:48:49 - pythonJson >>> VAZIO
+2020/07/10 21:48:49 - Lendo o JSON de saida
+2020/07/10 21:48:49 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:48:49 - Observação: 
+2020/07/10 21:48:49 - Status message: 
+2020/07/10 21:48:49 - Validando status da execução e da rota
+2020/07/10 21:48:49 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:48:50 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:48:50 - preparaAmbiente_Sure
+2020/07/10 21:48:50 - Transformando step em PEP8
+2020/07/10 21:48:50 - Execute o _Sure
+2020/07/10 21:48:50 - Existe o python
+2020/07/10 21:48:50 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:48:50 - Executando o Python
+2020/07/10 21:48:52 - Resultado do Shell >>> 
+2020/07/10 21:48:52 - pythonJson >>> VAZIO
+2020/07/10 21:48:52 - Lendo o JSON de saida
+2020/07/10 21:48:52 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:48:52 - Observação: 
+2020/07/10 21:48:52 - Status message: 
+2020/07/10 21:48:52 - Validando status da execução e da rota
+2020/07/10 21:48:52 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:48:52 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:48:52 - stepTo >>> goGoGo
+2020/07/10 21:48:53 - goGoGo
+2020/07/10 21:48:53 - Transformando step em PEP8
+2020/07/10 21:48:53 - Existe o python
+2020/07/10 21:48:53 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:48:53 - Executando o Python
+2020/07/10 21:48:54 - Resultado do Shell >>> 
+2020/07/10 21:48:54 - pythonJson >>> VAZIO
+2020/07/10 21:48:54 - Lendo o JSON de saida
+2020/07/10 21:48:54 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:48:54 - Observação: 
+2020/07/10 21:48:54 - Status message: 
+2020/07/10 21:48:54 - Validando status da execução e da rota
+2020/07/10 21:48:54 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:48:54 - resolucao 1024 1280
+2020/07/10 21:48:54 - Status message: 
+2020/07/10 21:48:54 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:48:54 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:48:54 - startProcess instanceId = 225ad433-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:48:54 - Insert value - Key: param_in - Value: 
+2020/07/10 21:48:54 - Insert value - Key: param_out - Value: 
+2020/07/10 21:48:54 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:48:54 - Insert value - Key: default_key - Value: 
+2020/07/10 21:48:54 - Insert value - Key: default_route - Value: 
+2020/07/10 21:48:54 - Insert value - Key: default_where - Value: 
+2020/07/10 21:48:54 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:48:54 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:48:54 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:48:54 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:48:54 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:48:54 - Insert value - Key: status_message - Value: 
+2020/07/10 21:48:54 - Inserindo dados no Brain
+2020/07/10 21:48:55 - Pegando as variáveis do Brain
+2020/07/10 21:48:55 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=hRXR28PrG9z9hCsgya3fCPNpS3oCt54ftxEPTAairUWtiK5dPh7kO2mrFrCEYoIR&filter={"where":{"piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:48:55 - Starting new process instance 
+2020/07/10 21:48:56 - running pesquisa_item
+2020/07/10 21:48:56 - stepAndTalkTo()
+2020/07/10 21:48:56 - Where >>> pesquisa_item
+2020/07/10 21:48:56 - getTask()
+2020/07/10 21:48:56 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=225ad433-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:48:56 - taskUser = 
+2020/07/10 21:48:56 - userId = robot_segunda_via_boleto1
+2020/07/10 21:48:56 - claimTask action = https://10.77.0.185/engine-rest/task/225afb5c-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:48:56 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:48:56 - getTask taskId = 225afb5c-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:48:56 - getTask processId = 225ad433-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:48:56 - GetInstanceVars()
+2020/07/10 21:48:56 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/225ad433-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:48:57 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:48:57 - startProcessControl()
+2020/07/10 21:48:57 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:48:57 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:48:57 - startProcessControl instanceId = 23ea7504-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:48:57 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:48:57 - Update value - Key: default_key - Value: 
+2020/07/10 21:48:57 - Update value - Key: default_route - Value: 
+2020/07/10 21:48:57 - Update value - Key: default_where - Value: 
+2020/07/10 21:48:57 - Update value - Key: idLicense - Value: 23ea7504-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:48:57 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:48:57 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:48:57 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:48:57 - Update value - Key: status_code - Value: 0
+2020/07/10 21:48:57 - Update value - Key: status_message - Value: 
+2020/07/10 21:48:57 - stepTo >>> pesquisa_item
+2020/07/10 21:48:58 - pesquisa_item
+2020/07/10 21:48:58 - Transformando step em PEP8
+2020/07/10 21:48:58 - Existe o python
+2020/07/10 21:48:58 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item"
+2020/07/10 21:48:58 - Executando o Python
+2020/07/10 21:48:59 - Resultado do Shell >>> 
+2020/07/10 21:48:59 - pythonJson >>> VAZIO
+2020/07/10 21:48:59 - Lendo o JSON de saida
+2020/07/10 21:48:59 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:48:54.000Z","id":1993131,"key":"param_in","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993132,"key":"param_out","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993133,"key":"autoCompletar","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:48:54.000Z","id":1993134,"key":"default_key","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993135,"key":"default_route","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993136,"key":"default_where","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993137,"key":"ntt_number","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993138,"key":"idLicense","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"23ea7504-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:48:54.000Z","id":1993139,"key":"obsLogBanco","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993140,"key":"process_name","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:48:54.000Z","id":1993141,"key":"status_code","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:48:54.000Z","id":1993142,"key":"status_message","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:48:59 - Observação: 
+2020/07/10 21:48:59 - Status message: 
+2020/07/10 21:48:59 - Validando status da execução e da rota
+2020/07/10 21:48:59 - finalizing stepTo - where:pesquisa_item, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:00 - stepTo >>> pesquisa_item_Sure
+2020/07/10 21:49:00 - pesquisa_item_Sure
+2020/07/10 21:49:00 - Transformando step em PEP8
+2020/07/10 21:49:00 - Execute o _Sure
+2020/07/10 21:49:00 - Existe o python
+2020/07/10 21:49:00 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item_sure"
+2020/07/10 21:49:00 - Executando o Python
+2020/07/10 21:49:02 - Resultado do Shell >>> 
+2020/07/10 21:49:02 - pythonJson >>> VAZIO
+2020/07/10 21:49:02 - Lendo o JSON de saida
+2020/07/10 21:49:02 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:48:54.000Z","id":1993131,"key":"param_in","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993132,"key":"param_out","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993133,"key":"autoCompletar","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:48:54.000Z","id":1993134,"key":"default_key","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993135,"key":"default_route","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993136,"key":"default_where","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993137,"key":"ntt_number","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993138,"key":"idLicense","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"23ea7504-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:48:54.000Z","id":1993139,"key":"obsLogBanco","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:48:54.000Z","id":1993140,"key":"process_name","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:48:54.000Z","id":1993141,"key":"status_code","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:48:54.000Z","id":1993142,"key":"status_message","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"225ad433-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:02 - Observação: 
+2020/07/10 21:49:02 - Status message: 
+2020/07/10 21:49:02 - Validando status da execução e da rota
+2020/07/10 21:49:02 - finalizing stepTo - where:pesquisa_item_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:02 - stepAndCheck - where:pesquisa_item - statuscode 0 - returning 1
+2020/07/10 21:49:02 - stepAndTalkTo - where: pesquisa_item - statuscode: 0 - sucesso 1
+2020/07/10 21:49:02 - Status message: 
+2020/07/10 21:49:02 - Status message: success at pesquisa_item
+2020/07/10 21:49:02 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:49:02 - Update value - Key: default_key - Value: 
+2020/07/10 21:49:02 - Update value - Key: default_route - Value: 
+2020/07/10 21:49:02 - Update value - Key: default_where - Value: pesquisa_item
+2020/07/10 21:49:02 - Update value - Key: idLicense - Value: 23ea7504-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:02 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:49:02 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:49:02 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:49:02 - Update value - Key: status_code - Value: 0
+2020/07/10 21:49:02 - Update value - Key: status_message - Value: success at pesquisa_item
+2020/07/10 21:49:02 - completeTask action = https://10.77.0.185/engine-rest/task/225afb5c-c2f7-11ea-a1fe-0291a8c4bdf0/complete
+2020/07/10 21:49:02 - Status message: success at pesquisa_item
+2020/07/10 21:49:02 - Observação: 
+2020/07/10 21:49:02 - completeTask JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"pesquisa_item","valueInfo":{}},"idLicense":{"type":"String","value":"23ea7504-c2f7-11ea-a1fe-0291a8c4bdf0","valueInfo":{}},"ntt_number":{"type":"String","value":"RegistroFrete-20200710214902","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"param_in":{"type":"String","value":""},"param_out":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"status_message":{"type":"String","value":"success at pesquisa_item","valueInfo":{}}}}
+2020/07/10 21:49:03 - Task atual --> pesquisa_item
+2020/07/10 21:49:03 - Realizando atualização do valor da variável multiplo
+2020/07/10 21:49:03 - completeTask retorno = 
+2020/07/10 21:49:03 - stepTo >>> lapCompleted
+2020/07/10 21:49:03 - lapCompleted
+2020/07/10 21:49:03 - finalizing stepTo - where:lapCompleted, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:03 - workingUpdate: 
+2020/07/10 21:49:03 - Pegando as informações do processo no Brain
+2020/07/10 21:49:04 - Inserindo dados no Brain
+2020/07/10 21:49:04 - Id do agente: 11
+2020/07/10 21:49:04 - Inserindo dados no Brain
+2020/07/10 21:49:05 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:49:05 - stepTo >>> preparaAmbiente
+2020/07/10 21:49:06 - preparaAmbiente
+2020/07/10 21:49:06 - Transformando step em PEP8
+2020/07/10 21:49:06 - Existe o python
+2020/07/10 21:49:06 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:49:06 - Executando o Python
+2020/07/10 21:49:07 - Resultado do Shell >>> 
+2020/07/10 21:49:07 - pythonJson >>> VAZIO
+2020/07/10 21:49:07 - Lendo o JSON de saida
+2020/07/10 21:49:07 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:07 - Observação: 
+2020/07/10 21:49:07 - Status message: 
+2020/07/10 21:49:07 - Validando status da execução e da rota
+2020/07/10 21:49:07 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:08 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:49:08 - preparaAmbiente_Sure
+2020/07/10 21:49:08 - Transformando step em PEP8
+2020/07/10 21:49:08 - Execute o _Sure
+2020/07/10 21:49:08 - Existe o python
+2020/07/10 21:49:08 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:49:08 - Executando o Python
+2020/07/10 21:49:10 - Resultado do Shell >>> 
+2020/07/10 21:49:10 - pythonJson >>> VAZIO
+2020/07/10 21:49:10 - Lendo o JSON de saida
+2020/07/10 21:49:10 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:10 - Observação: 
+2020/07/10 21:49:10 - Status message: 
+2020/07/10 21:49:10 - Validando status da execução e da rota
+2020/07/10 21:49:10 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:10 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:49:10 - stepTo >>> goGoGo
+2020/07/10 21:49:11 - goGoGo
+2020/07/10 21:49:11 - Transformando step em PEP8
+2020/07/10 21:49:11 - Existe o python
+2020/07/10 21:49:11 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:49:11 - Executando o Python
+2020/07/10 21:49:12 - Resultado do Shell >>> 
+2020/07/10 21:49:12 - pythonJson >>> VAZIO
+2020/07/10 21:49:12 - Lendo o JSON de saida
+2020/07/10 21:49:12 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:12 - Observação: 
+2020/07/10 21:49:12 - Status message: 
+2020/07/10 21:49:12 - Validando status da execução e da rota
+2020/07/10 21:49:12 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:12 - resolucao 1024 1280
+2020/07/10 21:49:12 - Status message: 
+2020/07/10 21:49:12 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:49:12 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:49:12 - startProcess instanceId = 2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:12 - Insert value - Key: param_in - Value: 
+2020/07/10 21:49:12 - Insert value - Key: param_out - Value: 
+2020/07/10 21:49:12 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:49:12 - Insert value - Key: default_key - Value: 
+2020/07/10 21:49:12 - Insert value - Key: default_route - Value: 
+2020/07/10 21:49:12 - Insert value - Key: default_where - Value: 
+2020/07/10 21:49:12 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:49:12 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:49:12 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:49:12 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:49:12 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:49:12 - Insert value - Key: status_message - Value: 
+2020/07/10 21:49:12 - Inserindo dados no Brain
+2020/07/10 21:49:13 - Pegando as variáveis do Brain
+2020/07/10 21:49:13 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=hRXR28PrG9z9hCsgya3fCPNpS3oCt54ftxEPTAairUWtiK5dPh7kO2mrFrCEYoIR&filter={"where":{"piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:49:13 - Starting new process instance 
+2020/07/10 21:49:14 - running pesquisa_item
+2020/07/10 21:49:14 - stepAndTalkTo()
+2020/07/10 21:49:14 - Where >>> pesquisa_item
+2020/07/10 21:49:14 - getTask()
+2020/07/10 21:49:14 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:14 - taskUser = 
+2020/07/10 21:49:14 - userId = robot_segunda_via_boleto1
+2020/07/10 21:49:14 - claimTask action = https://10.77.0.185/engine-rest/task/2d1569a2-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:49:14 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:49:14 - getTask taskId = 2d1569a2-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:14 - getTask processId = 2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:14 - GetInstanceVars()
+2020/07/10 21:49:14 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:49:15 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:49:15 - startProcessControl()
+2020/07/10 21:49:15 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:49:15 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:49:15 - startProcessControl instanceId = 2ea901fa-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:15 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:49:15 - Update value - Key: default_key - Value: 
+2020/07/10 21:49:15 - Update value - Key: default_route - Value: 
+2020/07/10 21:49:15 - Update value - Key: default_where - Value: 
+2020/07/10 21:49:15 - Update value - Key: idLicense - Value: 2ea901fa-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:15 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:49:15 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:49:15 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:49:15 - Update value - Key: status_code - Value: 0
+2020/07/10 21:49:15 - Update value - Key: status_message - Value: 
+2020/07/10 21:49:15 - stepTo >>> pesquisa_item
+2020/07/10 21:49:16 - pesquisa_item
+2020/07/10 21:49:16 - Transformando step em PEP8
+2020/07/10 21:49:16 - Existe o python
+2020/07/10 21:49:16 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item"
+2020/07/10 21:49:16 - Executando o Python
+2020/07/10 21:49:17 - Resultado do Shell >>> 
+2020/07/10 21:49:17 - pythonJson >>> VAZIO
+2020/07/10 21:49:17 - Lendo o JSON de saida
+2020/07/10 21:49:17 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:49:12.000Z","id":1993143,"key":"param_in","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993144,"key":"param_out","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993145,"key":"autoCompletar","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:49:12.000Z","id":1993146,"key":"default_key","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993147,"key":"default_route","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993148,"key":"default_where","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993149,"key":"idLicense","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"2ea901fa-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:49:12.000Z","id":1993150,"key":"ntt_number","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993151,"key":"obsLogBanco","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993152,"key":"process_name","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:49:12.000Z","id":1993153,"key":"status_message","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993154,"key":"status_code","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:17 - Observação: 
+2020/07/10 21:49:17 - Status message: 
+2020/07/10 21:49:17 - Validando status da execução e da rota
+2020/07/10 21:49:17 - finalizing stepTo - where:pesquisa_item, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:18 - stepTo >>> pesquisa_item_Sure
+2020/07/10 21:49:18 - pesquisa_item_Sure
+2020/07/10 21:49:18 - Transformando step em PEP8
+2020/07/10 21:49:18 - Execute o _Sure
+2020/07/10 21:49:18 - Existe o python
+2020/07/10 21:49:18 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item_sure"
+2020/07/10 21:49:18 - Executando o Python
+2020/07/10 21:49:20 - Resultado do Shell >>> 
+2020/07/10 21:49:20 - pythonJson >>> VAZIO
+2020/07/10 21:49:20 - Lendo o JSON de saida
+2020/07/10 21:49:20 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:49:12.000Z","id":1993143,"key":"param_in","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993144,"key":"param_out","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993145,"key":"autoCompletar","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:49:12.000Z","id":1993146,"key":"default_key","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993147,"key":"default_route","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993148,"key":"default_where","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993149,"key":"idLicense","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"2ea901fa-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:49:12.000Z","id":1993150,"key":"ntt_number","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993151,"key":"obsLogBanco","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993152,"key":"process_name","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:49:12.000Z","id":1993153,"key":"status_message","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:12.000Z","id":1993154,"key":"status_code","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"2d14f459-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:20 - Observação: 
+2020/07/10 21:49:20 - Status message: 
+2020/07/10 21:49:20 - Validando status da execução e da rota
+2020/07/10 21:49:20 - finalizing stepTo - where:pesquisa_item_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:21 - stepAndCheck - where:pesquisa_item - statuscode 0 - returning 1
+2020/07/10 21:49:21 - stepAndTalkTo - where: pesquisa_item - statuscode: 0 - sucesso 1
+2020/07/10 21:49:21 - Status message: 
+2020/07/10 21:49:21 - Status message: success at pesquisa_item
+2020/07/10 21:49:21 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:49:21 - Update value - Key: default_key - Value: 
+2020/07/10 21:49:21 - Update value - Key: default_route - Value: 
+2020/07/10 21:49:21 - Update value - Key: default_where - Value: pesquisa_item
+2020/07/10 21:49:21 - Update value - Key: idLicense - Value: 2ea901fa-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:21 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:49:21 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:49:21 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:49:21 - Update value - Key: status_code - Value: 0
+2020/07/10 21:49:21 - Update value - Key: status_message - Value: success at pesquisa_item
+2020/07/10 21:49:21 - completeTask action = https://10.77.0.185/engine-rest/task/2d1569a2-c2f7-11ea-a1fe-0291a8c4bdf0/complete
+2020/07/10 21:49:21 - Status message: success at pesquisa_item
+2020/07/10 21:49:21 - Observação: 
+2020/07/10 21:49:21 - completeTask JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"pesquisa_item","valueInfo":{}},"idLicense":{"type":"String","value":"2ea901fa-c2f7-11ea-a1fe-0291a8c4bdf0","valueInfo":{}},"ntt_number":{"type":"String","value":"RegistroFrete-20200710214921","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"param_in":{"type":"String","value":""},"param_out":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"status_message":{"type":"String","value":"success at pesquisa_item","valueInfo":{}}}}
+2020/07/10 21:49:21 - Task atual --> pesquisa_item
+2020/07/10 21:49:21 - Realizando atualização do valor da variável multiplo
+2020/07/10 21:49:21 - completeTask retorno = 
+2020/07/10 21:49:21 - stepTo >>> lapCompleted
+2020/07/10 21:49:22 - lapCompleted
+2020/07/10 21:49:22 - finalizing stepTo - where:lapCompleted, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:22 - workingUpdate: 
+2020/07/10 21:49:22 - Pegando as informações do processo no Brain
+2020/07/10 21:49:22 - Inserindo dados no Brain
+2020/07/10 21:49:22 - Id do agente: 11
+2020/07/10 21:49:22 - Inserindo dados no Brain
+2020/07/10 21:49:23 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:49:23 - stepTo >>> preparaAmbiente
+2020/07/10 21:49:24 - preparaAmbiente
+2020/07/10 21:49:24 - Transformando step em PEP8
+2020/07/10 21:49:24 - Existe o python
+2020/07/10 21:49:24 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:49:24 - Executando o Python
+2020/07/10 21:49:25 - Resultado do Shell >>> 
+2020/07/10 21:49:25 - pythonJson >>> VAZIO
+2020/07/10 21:49:25 - Lendo o JSON de saida
+2020/07/10 21:49:25 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:25 - Observação: 
+2020/07/10 21:49:25 - Status message: 
+2020/07/10 21:49:25 - Validando status da execução e da rota
+2020/07/10 21:49:25 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:26 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:49:26 - preparaAmbiente_Sure
+2020/07/10 21:49:26 - Transformando step em PEP8
+2020/07/10 21:49:26 - Execute o _Sure
+2020/07/10 21:49:26 - Existe o python
+2020/07/10 21:49:26 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:49:26 - Executando o Python
+2020/07/10 21:49:28 - Resultado do Shell >>> 
+2020/07/10 21:49:28 - pythonJson >>> VAZIO
+2020/07/10 21:49:28 - Lendo o JSON de saida
+2020/07/10 21:49:28 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:28 - Observação: 
+2020/07/10 21:49:28 - Status message: 
+2020/07/10 21:49:28 - Validando status da execução e da rota
+2020/07/10 21:49:28 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:28 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:49:28 - stepTo >>> goGoGo
+2020/07/10 21:49:29 - goGoGo
+2020/07/10 21:49:29 - Transformando step em PEP8
+2020/07/10 21:49:29 - Existe o python
+2020/07/10 21:49:29 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:49:29 - Executando o Python
+2020/07/10 21:49:30 - Resultado do Shell >>> 
+2020/07/10 21:49:30 - pythonJson >>> VAZIO
+2020/07/10 21:49:30 - Lendo o JSON de saida
+2020/07/10 21:49:30 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:30 - Observação: 
+2020/07/10 21:49:30 - Status message: 
+2020/07/10 21:49:30 - Validando status da execução e da rota
+2020/07/10 21:49:30 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:30 - resolucao 1024 1280
+2020/07/10 21:49:30 - Status message: 
+2020/07/10 21:49:30 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:49:30 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:49:31 - startProcess instanceId = 37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:31 - Insert value - Key: param_in - Value: 
+2020/07/10 21:49:31 - Insert value - Key: param_out - Value: 
+2020/07/10 21:49:31 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:49:31 - Insert value - Key: default_key - Value: 
+2020/07/10 21:49:31 - Insert value - Key: default_route - Value: 
+2020/07/10 21:49:31 - Insert value - Key: default_where - Value: 
+2020/07/10 21:49:31 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:49:31 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:49:31 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:49:31 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:49:31 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:49:31 - Insert value - Key: status_message - Value: 
+2020/07/10 21:49:31 - Inserindo dados no Brain
+2020/07/10 21:49:31 - Pegando as variáveis do Brain
+2020/07/10 21:49:31 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=hRXR28PrG9z9hCsgya3fCPNpS3oCt54ftxEPTAairUWtiK5dPh7kO2mrFrCEYoIR&filter={"where":{"piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:49:32 - Starting new process instance 
+2020/07/10 21:49:32 - running pesquisa_item
+2020/07/10 21:49:32 - stepAndTalkTo()
+2020/07/10 21:49:32 - Where >>> pesquisa_item
+2020/07/10 21:49:32 - getTask()
+2020/07/10 21:49:32 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:32 - taskUser = 
+2020/07/10 21:49:32 - userId = robot_segunda_via_boleto1
+2020/07/10 21:49:33 - claimTask action = https://10.77.0.185/engine-rest/task/37f699c8-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:49:33 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:49:33 - getTask taskId = 37f699c8-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:33 - getTask processId = 37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:33 - GetInstanceVars()
+2020/07/10 21:49:33 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:49:33 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:49:33 - startProcessControl()
+2020/07/10 21:49:33 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:49:33 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:49:33 - startProcessControl instanceId = 3988d290-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:33 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:49:33 - Update value - Key: default_key - Value: 
+2020/07/10 21:49:33 - Update value - Key: default_route - Value: 
+2020/07/10 21:49:33 - Update value - Key: default_where - Value: 
+2020/07/10 21:49:33 - Update value - Key: idLicense - Value: 3988d290-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:33 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:49:33 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:49:33 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:49:33 - Update value - Key: status_code - Value: 0
+2020/07/10 21:49:33 - Update value - Key: status_message - Value: 
+2020/07/10 21:49:34 - stepTo >>> pesquisa_item
+2020/07/10 21:49:34 - pesquisa_item
+2020/07/10 21:49:34 - Transformando step em PEP8
+2020/07/10 21:49:34 - Existe o python
+2020/07/10 21:49:34 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item"
+2020/07/10 21:49:34 - Executando o Python
+2020/07/10 21:49:36 - Resultado do Shell >>> 
+2020/07/10 21:49:36 - pythonJson >>> VAZIO
+2020/07/10 21:49:36 - Lendo o JSON de saida
+2020/07/10 21:49:36 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:49:31.000Z","id":1993155,"key":"param_in","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993156,"key":"param_out","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993157,"key":"autoCompletar","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:49:31.000Z","id":1993158,"key":"default_key","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993159,"key":"default_route","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993160,"key":"default_where","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993161,"key":"idLicense","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"3988d290-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:49:31.000Z","id":1993162,"key":"ntt_number","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993163,"key":"obsLogBanco","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993164,"key":"process_name","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:49:31.000Z","id":1993165,"key":"status_code","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:49:31.000Z","id":1993166,"key":"status_message","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:36 - Observação: 
+2020/07/10 21:49:36 - Status message: 
+2020/07/10 21:49:36 - Validando status da execução e da rota
+2020/07/10 21:49:36 - finalizing stepTo - where:pesquisa_item, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:36 - stepTo >>> pesquisa_item_Sure
+2020/07/10 21:49:37 - pesquisa_item_Sure
+2020/07/10 21:49:37 - Transformando step em PEP8
+2020/07/10 21:49:37 - Execute o _Sure
+2020/07/10 21:49:37 - Existe o python
+2020/07/10 21:49:37 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item_sure"
+2020/07/10 21:49:37 - Executando o Python
+2020/07/10 21:49:38 - Resultado do Shell >>> 
+2020/07/10 21:49:38 - pythonJson >>> VAZIO
+2020/07/10 21:49:38 - Lendo o JSON de saida
+2020/07/10 21:49:38 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:49:31.000Z","id":1993155,"key":"param_in","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993156,"key":"param_out","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993157,"key":"autoCompletar","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:49:31.000Z","id":1993158,"key":"default_key","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993159,"key":"default_route","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993160,"key":"default_where","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993161,"key":"idLicense","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"3988d290-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:49:31.000Z","id":1993162,"key":"ntt_number","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993163,"key":"obsLogBanco","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:31.000Z","id":1993164,"key":"process_name","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:49:31.000Z","id":1993165,"key":"status_code","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:49:31.000Z","id":1993166,"key":"status_message","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"37f64b8f-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:38 - Observação: 
+2020/07/10 21:49:38 - Status message: 
+2020/07/10 21:49:38 - Validando status da execução e da rota
+2020/07/10 21:49:38 - finalizing stepTo - where:pesquisa_item_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:39 - stepAndCheck - where:pesquisa_item - statuscode 0 - returning 1
+2020/07/10 21:49:39 - stepAndTalkTo - where: pesquisa_item - statuscode: 0 - sucesso 1
+2020/07/10 21:49:39 - Status message: 
+2020/07/10 21:49:39 - Status message: success at pesquisa_item
+2020/07/10 21:49:39 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:49:39 - Update value - Key: default_key - Value: 
+2020/07/10 21:49:39 - Update value - Key: default_route - Value: 
+2020/07/10 21:49:39 - Update value - Key: default_where - Value: pesquisa_item
+2020/07/10 21:49:39 - Update value - Key: idLicense - Value: 3988d290-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:39 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:49:39 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:49:39 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:49:39 - Update value - Key: status_code - Value: 0
+2020/07/10 21:49:39 - Update value - Key: status_message - Value: success at pesquisa_item
+2020/07/10 21:49:39 - completeTask action = https://10.77.0.185/engine-rest/task/37f699c8-c2f7-11ea-a1fe-0291a8c4bdf0/complete
+2020/07/10 21:49:39 - Status message: success at pesquisa_item
+2020/07/10 21:49:39 - Observação: 
+2020/07/10 21:49:39 - completeTask JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"pesquisa_item","valueInfo":{}},"idLicense":{"type":"String","value":"3988d290-c2f7-11ea-a1fe-0291a8c4bdf0","valueInfo":{}},"ntt_number":{"type":"String","value":"RegistroFrete-20200710214939","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"param_in":{"type":"String","value":""},"param_out":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"status_message":{"type":"String","value":"success at pesquisa_item","valueInfo":{}}}}
+2020/07/10 21:49:39 - Task atual --> pesquisa_item
+2020/07/10 21:49:39 - Realizando atualização do valor da variável multiplo
+2020/07/10 21:49:39 - completeTask retorno = 
+2020/07/10 21:49:39 - stepTo >>> lapCompleted
+2020/07/10 21:49:40 - lapCompleted
+2020/07/10 21:49:40 - finalizing stepTo - where:lapCompleted, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:40 - workingUpdate: 
+2020/07/10 21:49:40 - Pegando as informações do processo no Brain
+2020/07/10 21:49:40 - Inserindo dados no Brain
+2020/07/10 21:49:40 - Id do agente: 11
+2020/07/10 21:49:40 - Inserindo dados no Brain
+2020/07/10 21:49:41 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:49:41 - stepTo >>> preparaAmbiente
+2020/07/10 21:49:42 - preparaAmbiente
+2020/07/10 21:49:42 - Transformando step em PEP8
+2020/07/10 21:49:42 - Existe o python
+2020/07/10 21:49:42 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:49:42 - Executando o Python
+2020/07/10 21:49:43 - Resultado do Shell >>> 
+2020/07/10 21:49:43 - pythonJson >>> VAZIO
+2020/07/10 21:49:43 - Lendo o JSON de saida
+2020/07/10 21:49:43 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:43 - Observação: 
+2020/07/10 21:49:43 - Status message: 
+2020/07/10 21:49:43 - Validando status da execução e da rota
+2020/07/10 21:49:43 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:44 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:49:44 - preparaAmbiente_Sure
+2020/07/10 21:49:44 - Transformando step em PEP8
+2020/07/10 21:49:44 - Execute o _Sure
+2020/07/10 21:49:44 - Existe o python
+2020/07/10 21:49:44 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:49:44 - Executando o Python
+2020/07/10 21:49:46 - Resultado do Shell >>> 
+2020/07/10 21:49:46 - pythonJson >>> VAZIO
+2020/07/10 21:49:46 - Lendo o JSON de saida
+2020/07/10 21:49:46 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:46 - Observação: 
+2020/07/10 21:49:46 - Status message: 
+2020/07/10 21:49:46 - Validando status da execução e da rota
+2020/07/10 21:49:46 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:46 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:49:46 - stepTo >>> goGoGo
+2020/07/10 21:49:47 - goGoGo
+2020/07/10 21:49:47 - Transformando step em PEP8
+2020/07/10 21:49:47 - Existe o python
+2020/07/10 21:49:47 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:49:47 - Executando o Python
+2020/07/10 21:49:48 - Resultado do Shell >>> 
+2020/07/10 21:49:48 - pythonJson >>> VAZIO
+2020/07/10 21:49:48 - Lendo o JSON de saida
+2020/07/10 21:49:48 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:48 - Observação: 
+2020/07/10 21:49:48 - Status message: 
+2020/07/10 21:49:48 - Validando status da execução e da rota
+2020/07/10 21:49:48 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:48 - resolucao 1024 1280
+2020/07/10 21:49:48 - Status message: 
+2020/07/10 21:49:48 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:49:48 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:49:48 - startProcess instanceId = 4298c405-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:48 - Insert value - Key: param_in - Value: 
+2020/07/10 21:49:48 - Insert value - Key: param_out - Value: 
+2020/07/10 21:49:48 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:49:48 - Insert value - Key: default_key - Value: 
+2020/07/10 21:49:48 - Insert value - Key: default_route - Value: 
+2020/07/10 21:49:48 - Insert value - Key: default_where - Value: 
+2020/07/10 21:49:48 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:49:48 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:49:48 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:49:48 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:49:48 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:49:48 - Insert value - Key: status_message - Value: 
+2020/07/10 21:49:48 - Inserindo dados no Brain
+2020/07/10 21:49:49 - Pegando as variáveis do Brain
+2020/07/10 21:49:49 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=hRXR28PrG9z9hCsgya3fCPNpS3oCt54ftxEPTAairUWtiK5dPh7kO2mrFrCEYoIR&filter={"where":{"piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:49:49 - Starting new process instance 
+2020/07/10 21:49:50 - running pesquisa_item
+2020/07/10 21:49:50 - stepAndTalkTo()
+2020/07/10 21:49:50 - Where >>> pesquisa_item
+2020/07/10 21:49:50 - getTask()
+2020/07/10 21:49:50 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=4298c405-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:50 - taskUser = 
+2020/07/10 21:49:50 - userId = robot_segunda_via_boleto1
+2020/07/10 21:49:50 - claimTask action = https://10.77.0.185/engine-rest/task/4299394e-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:49:50 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:49:51 - getTask taskId = 4299394e-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:51 - getTask processId = 4298c405-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:51 - GetInstanceVars()
+2020/07/10 21:49:51 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/4298c405-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:49:51 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:49:51 - startProcessControl()
+2020/07/10 21:49:51 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:49:51 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:49:51 - startProcessControl instanceId = 44283dc6-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:51 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:49:51 - Update value - Key: default_key - Value: 
+2020/07/10 21:49:51 - Update value - Key: default_route - Value: 
+2020/07/10 21:49:51 - Update value - Key: default_where - Value: 
+2020/07/10 21:49:51 - Update value - Key: idLicense - Value: 44283dc6-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:51 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:49:51 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:49:51 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:49:51 - Update value - Key: status_code - Value: 0
+2020/07/10 21:49:51 - Update value - Key: status_message - Value: 
+2020/07/10 21:49:52 - stepTo >>> pesquisa_item
+2020/07/10 21:49:52 - pesquisa_item
+2020/07/10 21:49:52 - Transformando step em PEP8
+2020/07/10 21:49:52 - Existe o python
+2020/07/10 21:49:52 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item"
+2020/07/10 21:49:52 - Executando o Python
+2020/07/10 21:49:54 - Resultado do Shell >>> 
+2020/07/10 21:49:54 - pythonJson >>> VAZIO
+2020/07/10 21:49:54 - Lendo o JSON de saida
+2020/07/10 21:49:54 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:49:48.000Z","id":1993167,"key":"param_in","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993168,"key":"param_out","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993169,"key":"autoCompletar","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:49:48.000Z","id":1993170,"key":"default_key","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993171,"key":"default_route","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993172,"key":"default_where","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993173,"key":"idLicense","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"44283dc6-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:49:48.000Z","id":1993174,"key":"ntt_number","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993175,"key":"obsLogBanco","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993176,"key":"process_name","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:49:48.000Z","id":1993177,"key":"status_code","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:49:48.000Z","id":1993178,"key":"status_message","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:54 - Observação: 
+2020/07/10 21:49:54 - Status message: 
+2020/07/10 21:49:54 - Validando status da execução e da rota
+2020/07/10 21:49:54 - finalizing stepTo - where:pesquisa_item, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:54 - stepTo >>> pesquisa_item_Sure
+2020/07/10 21:49:55 - pesquisa_item_Sure
+2020/07/10 21:49:55 - Transformando step em PEP8
+2020/07/10 21:49:55 - Execute o _Sure
+2020/07/10 21:49:55 - Existe o python
+2020/07/10 21:49:55 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item_sure"
+2020/07/10 21:49:55 - Executando o Python
+2020/07/10 21:49:56 - Resultado do Shell >>> 
+2020/07/10 21:49:56 - pythonJson >>> VAZIO
+2020/07/10 21:49:56 - Lendo o JSON de saida
+2020/07/10 21:49:56 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:49:48.000Z","id":1993167,"key":"param_in","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993168,"key":"param_out","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993169,"key":"autoCompletar","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:49:48.000Z","id":1993170,"key":"default_key","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993171,"key":"default_route","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993172,"key":"default_where","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993173,"key":"idLicense","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"44283dc6-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:49:48.000Z","id":1993174,"key":"ntt_number","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993175,"key":"obsLogBanco","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:49:48.000Z","id":1993176,"key":"process_name","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:49:48.000Z","id":1993177,"key":"status_code","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:49:48.000Z","id":1993178,"key":"status_message","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"4298c405-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:49:56 - Observação: 
+2020/07/10 21:49:56 - Status message: 
+2020/07/10 21:49:56 - Validando status da execução e da rota
+2020/07/10 21:49:56 - finalizing stepTo - where:pesquisa_item_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:56 - stepAndCheck - where:pesquisa_item - statuscode 0 - returning 1
+2020/07/10 21:49:56 - stepAndTalkTo - where: pesquisa_item - statuscode: 0 - sucesso 1
+2020/07/10 21:49:56 - Status message: 
+2020/07/10 21:49:56 - Status message: success at pesquisa_item
+2020/07/10 21:49:56 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:49:56 - Update value - Key: default_key - Value: 
+2020/07/10 21:49:56 - Update value - Key: default_route - Value: 
+2020/07/10 21:49:56 - Update value - Key: default_where - Value: pesquisa_item
+2020/07/10 21:49:56 - Update value - Key: idLicense - Value: 44283dc6-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:49:56 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:49:56 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:49:56 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:49:56 - Update value - Key: status_code - Value: 0
+2020/07/10 21:49:56 - Update value - Key: status_message - Value: success at pesquisa_item
+2020/07/10 21:49:56 - completeTask action = https://10.77.0.185/engine-rest/task/4299394e-c2f7-11ea-a1fe-0291a8c4bdf0/complete
+2020/07/10 21:49:56 - Status message: success at pesquisa_item
+2020/07/10 21:49:56 - Observação: 
+2020/07/10 21:49:56 - completeTask JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"pesquisa_item","valueInfo":{}},"idLicense":{"type":"String","value":"44283dc6-c2f7-11ea-a1fe-0291a8c4bdf0","valueInfo":{}},"ntt_number":{"type":"String","value":"RegistroFrete-20200710214957","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"param_in":{"type":"String","value":""},"param_out":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"status_message":{"type":"String","value":"success at pesquisa_item","valueInfo":{}}}}
+2020/07/10 21:49:57 - Task atual --> pesquisa_item
+2020/07/10 21:49:57 - Realizando atualização do valor da variável multiplo
+2020/07/10 21:49:57 - completeTask retorno = 
+2020/07/10 21:49:57 - stepTo >>> lapCompleted
+2020/07/10 21:49:58 - lapCompleted
+2020/07/10 21:49:58 - finalizing stepTo - where:lapCompleted, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:49:58 - workingUpdate: 
+2020/07/10 21:49:58 - Pegando as informações do processo no Brain
+2020/07/10 21:49:58 - Inserindo dados no Brain
+2020/07/10 21:49:58 - Id do agente: 11
+2020/07/10 21:49:58 - Inserindo dados no Brain
+2020/07/10 21:49:59 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:49:59 - stepTo >>> preparaAmbiente
+2020/07/10 21:50:00 - preparaAmbiente
+2020/07/10 21:50:00 - Transformando step em PEP8
+2020/07/10 21:50:00 - Existe o python
+2020/07/10 21:50:00 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:50:00 - Executando o Python
+2020/07/10 21:50:01 - Resultado do Shell >>> 
+2020/07/10 21:50:01 - pythonJson >>> VAZIO
+2020/07/10 21:50:01 - Lendo o JSON de saida
+2020/07/10 21:50:01 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:01 - Observação: 
+2020/07/10 21:50:01 - Status message: 
+2020/07/10 21:50:01 - Validando status da execução e da rota
+2020/07/10 21:50:01 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:02 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:50:02 - preparaAmbiente_Sure
+2020/07/10 21:50:02 - Transformando step em PEP8
+2020/07/10 21:50:02 - Execute o _Sure
+2020/07/10 21:50:02 - Existe o python
+2020/07/10 21:50:02 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:50:02 - Executando o Python
+2020/07/10 21:50:04 - Resultado do Shell >>> 
+2020/07/10 21:50:04 - pythonJson >>> VAZIO
+2020/07/10 21:50:04 - Lendo o JSON de saida
+2020/07/10 21:50:04 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:04 - Observação: 
+2020/07/10 21:50:04 - Status message: 
+2020/07/10 21:50:04 - Validando status da execução e da rota
+2020/07/10 21:50:04 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:04 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:50:04 - stepTo >>> goGoGo
+2020/07/10 21:50:05 - goGoGo
+2020/07/10 21:50:05 - Transformando step em PEP8
+2020/07/10 21:50:05 - Existe o python
+2020/07/10 21:50:05 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:50:05 - Executando o Python
+2020/07/10 21:50:06 - Resultado do Shell >>> 
+2020/07/10 21:50:06 - pythonJson >>> VAZIO
+2020/07/10 21:50:06 - Lendo o JSON de saida
+2020/07/10 21:50:06 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:06 - Observação: 
+2020/07/10 21:50:06 - Status message: 
+2020/07/10 21:50:06 - Validando status da execução e da rota
+2020/07/10 21:50:06 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:06 - resolucao 1024 1280
+2020/07/10 21:50:06 - Status message: 
+2020/07/10 21:50:06 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:50:06 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:50:06 - startProcess instanceId = 4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:06 - Insert value - Key: param_in - Value: 
+2020/07/10 21:50:06 - Insert value - Key: param_out - Value: 
+2020/07/10 21:50:06 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:50:06 - Insert value - Key: default_key - Value: 
+2020/07/10 21:50:06 - Insert value - Key: default_route - Value: 
+2020/07/10 21:50:06 - Insert value - Key: default_where - Value: 
+2020/07/10 21:50:06 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:50:06 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:50:06 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:50:06 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:50:06 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:50:06 - Insert value - Key: status_message - Value: 
+2020/07/10 21:50:06 - Inserindo dados no Brain
+2020/07/10 21:50:07 - Pegando as variáveis do Brain
+2020/07/10 21:50:07 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=hRXR28PrG9z9hCsgya3fCPNpS3oCt54ftxEPTAairUWtiK5dPh7kO2mrFrCEYoIR&filter={"where":{"piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:50:07 - Starting new process instance 
+2020/07/10 21:50:08 - running pesquisa_item
+2020/07/10 21:50:08 - stepAndTalkTo()
+2020/07/10 21:50:08 - Where >>> pesquisa_item
+2020/07/10 21:50:08 - getTask()
+2020/07/10 21:50:08 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:08 - taskUser = 
+2020/07/10 21:50:08 - userId = robot_segunda_via_boleto1
+2020/07/10 21:50:08 - claimTask action = https://10.77.0.185/engine-rest/task/4d46fd64-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:50:08 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:50:08 - getTask taskId = 4d46fd64-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:08 - getTask processId = 4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:08 - GetInstanceVars()
+2020/07/10 21:50:08 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:50:09 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:50:09 - startProcessControl()
+2020/07/10 21:50:09 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:50:09 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:50:09 - startProcessControl instanceId = 4ed73a5c-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:09 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:50:09 - Update value - Key: default_key - Value: 
+2020/07/10 21:50:09 - Update value - Key: default_route - Value: 
+2020/07/10 21:50:09 - Update value - Key: default_where - Value: 
+2020/07/10 21:50:09 - Update value - Key: idLicense - Value: 4ed73a5c-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:09 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:50:09 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:50:09 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:50:09 - Update value - Key: status_code - Value: 0
+2020/07/10 21:50:09 - Update value - Key: status_message - Value: 
+2020/07/10 21:50:09 - stepTo >>> pesquisa_item
+2020/07/10 21:50:10 - pesquisa_item
+2020/07/10 21:50:10 - Transformando step em PEP8
+2020/07/10 21:50:10 - Existe o python
+2020/07/10 21:50:10 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item"
+2020/07/10 21:50:10 - Executando o Python
+2020/07/10 21:50:11 - Resultado do Shell >>> 
+2020/07/10 21:50:11 - pythonJson >>> VAZIO
+2020/07/10 21:50:11 - Lendo o JSON de saida
+2020/07/10 21:50:11 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:50:06.000Z","id":1993179,"key":"param_in","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993180,"key":"autoCompletar","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:50:06.000Z","id":1993181,"key":"default_key","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993182,"key":"param_out","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993183,"key":"default_where","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993184,"key":"default_route","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993185,"key":"idLicense","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"4ed73a5c-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:50:06.000Z","id":1993186,"key":"ntt_number","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993187,"key":"obsLogBanco","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993188,"key":"process_name","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:50:06.000Z","id":1993189,"key":"status_message","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993190,"key":"status_code","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:11 - Observação: 
+2020/07/10 21:50:11 - Status message: 
+2020/07/10 21:50:11 - Validando status da execução e da rota
+2020/07/10 21:50:11 - finalizing stepTo - where:pesquisa_item, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:12 - stepTo >>> pesquisa_item_Sure
+2020/07/10 21:50:12 - pesquisa_item_Sure
+2020/07/10 21:50:12 - Transformando step em PEP8
+2020/07/10 21:50:12 - Execute o _Sure
+2020/07/10 21:50:12 - Existe o python
+2020/07/10 21:50:12 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item_sure"
+2020/07/10 21:50:12 - Executando o Python
+2020/07/10 21:50:14 - Resultado do Shell >>> 
+2020/07/10 21:50:14 - pythonJson >>> VAZIO
+2020/07/10 21:50:14 - Lendo o JSON de saida
+2020/07/10 21:50:14 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:50:06.000Z","id":1993179,"key":"param_in","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993180,"key":"autoCompletar","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:50:06.000Z","id":1993181,"key":"default_key","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993182,"key":"param_out","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993183,"key":"default_where","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993184,"key":"default_route","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993185,"key":"idLicense","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"4ed73a5c-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:50:06.000Z","id":1993186,"key":"ntt_number","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993187,"key":"obsLogBanco","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993188,"key":"process_name","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:50:06.000Z","id":1993189,"key":"status_message","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:06.000Z","id":1993190,"key":"status_code","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"4d46af2b-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:14 - Observação: 
+2020/07/10 21:50:14 - Status message: 
+2020/07/10 21:50:14 - Validando status da execução e da rota
+2020/07/10 21:50:14 - finalizing stepTo - where:pesquisa_item_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:14 - stepAndCheck - where:pesquisa_item - statuscode 0 - returning 1
+2020/07/10 21:50:14 - stepAndTalkTo - where: pesquisa_item - statuscode: 0 - sucesso 1
+2020/07/10 21:50:14 - Status message: 
+2020/07/10 21:50:14 - Status message: success at pesquisa_item
+2020/07/10 21:50:14 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:50:14 - Update value - Key: default_key - Value: 
+2020/07/10 21:50:14 - Update value - Key: default_route - Value: 
+2020/07/10 21:50:14 - Update value - Key: default_where - Value: pesquisa_item
+2020/07/10 21:50:14 - Update value - Key: idLicense - Value: 4ed73a5c-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:14 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:50:14 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:50:14 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:50:14 - Update value - Key: status_code - Value: 0
+2020/07/10 21:50:14 - Update value - Key: status_message - Value: success at pesquisa_item
+2020/07/10 21:50:14 - completeTask action = https://10.77.0.185/engine-rest/task/4d46fd64-c2f7-11ea-a1fe-0291a8c4bdf0/complete
+2020/07/10 21:50:14 - Status message: success at pesquisa_item
+2020/07/10 21:50:14 - Observação: 
+2020/07/10 21:50:14 - completeTask JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"pesquisa_item","valueInfo":{}},"idLicense":{"type":"String","value":"4ed73a5c-c2f7-11ea-a1fe-0291a8c4bdf0","valueInfo":{}},"ntt_number":{"type":"String","value":"RegistroFrete-20200710215014","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"param_in":{"type":"String","value":""},"param_out":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"status_message":{"type":"String","value":"success at pesquisa_item","valueInfo":{}}}}
+2020/07/10 21:50:15 - Task atual --> pesquisa_item
+2020/07/10 21:50:15 - Realizando atualização do valor da variável multiplo
+2020/07/10 21:50:15 - completeTask retorno = 
+2020/07/10 21:50:15 - stepTo >>> lapCompleted
+2020/07/10 21:50:16 - lapCompleted
+2020/07/10 21:50:16 - finalizing stepTo - where:lapCompleted, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:16 - workingUpdate: 
+2020/07/10 21:50:16 - Pegando as informações do processo no Brain
+2020/07/10 21:50:16 - Inserindo dados no Brain
+2020/07/10 21:50:16 - Id do agente: 11
+2020/07/10 21:50:16 - Inserindo dados no Brain
+2020/07/10 21:50:17 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:50:17 - stepTo >>> preparaAmbiente
+2020/07/10 21:50:18 - preparaAmbiente
+2020/07/10 21:50:18 - Transformando step em PEP8
+2020/07/10 21:50:18 - Existe o python
+2020/07/10 21:50:18 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:50:18 - Executando o Python
+2020/07/10 21:50:19 - Resultado do Shell >>> 
+2020/07/10 21:50:19 - pythonJson >>> VAZIO
+2020/07/10 21:50:19 - Lendo o JSON de saida
+2020/07/10 21:50:19 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:19 - Observação: 
+2020/07/10 21:50:19 - Status message: 
+2020/07/10 21:50:19 - Validando status da execução e da rota
+2020/07/10 21:50:19 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:20 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:50:20 - preparaAmbiente_Sure
+2020/07/10 21:50:20 - Transformando step em PEP8
+2020/07/10 21:50:20 - Execute o _Sure
+2020/07/10 21:50:20 - Existe o python
+2020/07/10 21:50:20 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:50:20 - Executando o Python
+2020/07/10 21:50:22 - Resultado do Shell >>> 
+2020/07/10 21:50:22 - pythonJson >>> VAZIO
+2020/07/10 21:50:22 - Lendo o JSON de saida
+2020/07/10 21:50:22 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:22 - Observação: 
+2020/07/10 21:50:22 - Status message: 
+2020/07/10 21:50:22 - Validando status da execução e da rota
+2020/07/10 21:50:22 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:22 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:50:22 - stepTo >>> goGoGo
+2020/07/10 21:50:23 - goGoGo
+2020/07/10 21:50:23 - Transformando step em PEP8
+2020/07/10 21:50:23 - Existe o python
+2020/07/10 21:50:23 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:50:23 - Executando o Python
+2020/07/10 21:50:24 - Resultado do Shell >>> 
+2020/07/10 21:50:24 - pythonJson >>> VAZIO
+2020/07/10 21:50:24 - Lendo o JSON de saida
+2020/07/10 21:50:24 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:24 - Observação: 
+2020/07/10 21:50:24 - Status message: 
+2020/07/10 21:50:24 - Validando status da execução e da rota
+2020/07/10 21:50:24 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:24 - resolucao 1024 1280
+2020/07/10 21:50:24 - Status message: 
+2020/07/10 21:50:24 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:50:24 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:50:24 - startProcess instanceId = 58075f01-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:24 - Insert value - Key: param_in - Value: 
+2020/07/10 21:50:24 - Insert value - Key: param_out - Value: 
+2020/07/10 21:50:24 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:50:24 - Insert value - Key: default_key - Value: 
+2020/07/10 21:50:24 - Insert value - Key: default_route - Value: 
+2020/07/10 21:50:24 - Insert value - Key: default_where - Value: 
+2020/07/10 21:50:24 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:50:24 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:50:24 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:50:24 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:50:24 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:50:24 - Insert value - Key: status_message - Value: 
+2020/07/10 21:50:24 - Inserindo dados no Brain
+2020/07/10 21:50:25 - Pegando as variáveis do Brain
+2020/07/10 21:50:25 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=hRXR28PrG9z9hCsgya3fCPNpS3oCt54ftxEPTAairUWtiK5dPh7kO2mrFrCEYoIR&filter={"where":{"piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:50:25 - Starting new process instance 
+2020/07/10 21:50:26 - running pesquisa_item
+2020/07/10 21:50:26 - stepAndTalkTo()
+2020/07/10 21:50:26 - Where >>> pesquisa_item
+2020/07/10 21:50:26 - getTask()
+2020/07/10 21:50:26 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=58075f01-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:26 - taskUser = 
+2020/07/10 21:50:26 - userId = robot_segunda_via_boleto1
+2020/07/10 21:50:26 - claimTask action = https://10.77.0.185/engine-rest/task/5807862a-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:50:26 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:50:27 - getTask taskId = 5807862a-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:27 - getTask processId = 58075f01-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:27 - GetInstanceVars()
+2020/07/10 21:50:27 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/58075f01-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:50:27 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:50:27 - startProcessControl()
+2020/07/10 21:50:27 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:50:27 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:50:27 - startProcessControl instanceId = 599c2ff2-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:27 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:50:27 - Update value - Key: default_key - Value: 
+2020/07/10 21:50:27 - Update value - Key: default_route - Value: 
+2020/07/10 21:50:27 - Update value - Key: default_where - Value: 
+2020/07/10 21:50:27 - Update value - Key: idLicense - Value: 599c2ff2-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:27 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:50:27 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:50:27 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:50:27 - Update value - Key: status_code - Value: 0
+2020/07/10 21:50:27 - Update value - Key: status_message - Value: 
+2020/07/10 21:50:28 - stepTo >>> pesquisa_item
+2020/07/10 21:50:28 - pesquisa_item
+2020/07/10 21:50:28 - Transformando step em PEP8
+2020/07/10 21:50:28 - Existe o python
+2020/07/10 21:50:28 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item"
+2020/07/10 21:50:28 - Executando o Python
+2020/07/10 21:50:30 - Resultado do Shell >>> 
+2020/07/10 21:50:30 - pythonJson >>> VAZIO
+2020/07/10 21:50:30 - Lendo o JSON de saida
+2020/07/10 21:50:30 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:50:24.000Z","id":1993191,"key":"param_in","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993192,"key":"param_out","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993193,"key":"autoCompletar","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:50:24.000Z","id":1993194,"key":"default_key","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993195,"key":"default_route","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993196,"key":"default_where","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993197,"key":"idLicense","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"599c2ff2-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:50:24.000Z","id":1993198,"key":"ntt_number","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993199,"key":"obsLogBanco","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993200,"key":"process_name","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:50:24.000Z","id":1993201,"key":"status_code","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:50:24.000Z","id":1993202,"key":"status_message","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:30 - Observação: 
+2020/07/10 21:50:30 - Status message: 
+2020/07/10 21:50:30 - Validando status da execução e da rota
+2020/07/10 21:50:30 - finalizing stepTo - where:pesquisa_item, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:30 - stepTo >>> pesquisa_item_Sure
+2020/07/10 21:50:31 - pesquisa_item_Sure
+2020/07/10 21:50:31 - Transformando step em PEP8
+2020/07/10 21:50:31 - Execute o _Sure
+2020/07/10 21:50:31 - Existe o python
+2020/07/10 21:50:31 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item_sure"
+2020/07/10 21:50:31 - Executando o Python
+2020/07/10 21:50:32 - Resultado do Shell >>> 
+2020/07/10 21:50:32 - pythonJson >>> VAZIO
+2020/07/10 21:50:32 - Lendo o JSON de saida
+2020/07/10 21:50:32 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:50:24.000Z","id":1993191,"key":"param_in","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993192,"key":"param_out","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993193,"key":"autoCompletar","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:50:24.000Z","id":1993194,"key":"default_key","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993195,"key":"default_route","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993196,"key":"default_where","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993197,"key":"idLicense","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"599c2ff2-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:50:24.000Z","id":1993198,"key":"ntt_number","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993199,"key":"obsLogBanco","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:50:24.000Z","id":1993200,"key":"process_name","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:50:24.000Z","id":1993201,"key":"status_code","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:50:24.000Z","id":1993202,"key":"status_message","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"58075f01-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:32 - Observação: 
+2020/07/10 21:50:32 - Status message: 
+2020/07/10 21:50:32 - Validando status da execução e da rota
+2020/07/10 21:50:32 - finalizing stepTo - where:pesquisa_item_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:33 - stepAndCheck - where:pesquisa_item - statuscode 0 - returning 1
+2020/07/10 21:50:33 - stepAndTalkTo - where: pesquisa_item - statuscode: 0 - sucesso 1
+2020/07/10 21:50:33 - Status message: 
+2020/07/10 21:50:33 - Status message: success at pesquisa_item
+2020/07/10 21:50:33 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:50:33 - Update value - Key: default_key - Value: 
+2020/07/10 21:50:33 - Update value - Key: default_route - Value: 
+2020/07/10 21:50:33 - Update value - Key: default_where - Value: pesquisa_item
+2020/07/10 21:50:33 - Update value - Key: idLicense - Value: 599c2ff2-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:33 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:50:33 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:50:33 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:50:33 - Update value - Key: status_code - Value: 0
+2020/07/10 21:50:33 - Update value - Key: status_message - Value: success at pesquisa_item
+2020/07/10 21:50:33 - completeTask action = https://10.77.0.185/engine-rest/task/5807862a-c2f7-11ea-a1fe-0291a8c4bdf0/complete
+2020/07/10 21:50:33 - Status message: success at pesquisa_item
+2020/07/10 21:50:33 - Observação: 
+2020/07/10 21:50:33 - completeTask JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"pesquisa_item","valueInfo":{}},"idLicense":{"type":"String","value":"599c2ff2-c2f7-11ea-a1fe-0291a8c4bdf0","valueInfo":{}},"ntt_number":{"type":"String","value":"RegistroFrete-20200710215033","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"param_in":{"type":"String","value":""},"param_out":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"status_message":{"type":"String","value":"success at pesquisa_item","valueInfo":{}}}}
+2020/07/10 21:50:33 - Task atual --> pesquisa_item
+2020/07/10 21:50:33 - Realizando atualização do valor da variável multiplo
+2020/07/10 21:50:33 - completeTask retorno = 
+2020/07/10 21:50:33 - stepTo >>> lapCompleted
+2020/07/10 21:50:34 - lapCompleted
+2020/07/10 21:50:34 - finalizing stepTo - where:lapCompleted, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:34 - workingUpdate: 
+2020/07/10 21:50:34 - Pegando as informações do processo no Brain
+2020/07/10 21:50:34 - Inserindo dados no Brain
+2020/07/10 21:50:34 - Id do agente: 11
+2020/07/10 21:50:34 - Inserindo dados no Brain
+2020/07/10 21:50:35 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:50:35 - stepTo >>> preparaAmbiente
+2020/07/10 21:50:36 - preparaAmbiente
+2020/07/10 21:50:36 - Transformando step em PEP8
+2020/07/10 21:50:36 - Existe o python
+2020/07/10 21:50:36 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:50:36 - Executando o Python
+2020/07/10 21:50:37 - Resultado do Shell >>> 
+2020/07/10 21:50:37 - pythonJson >>> VAZIO
+2020/07/10 21:50:37 - Lendo o JSON de saida
+2020/07/10 21:50:37 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:37 - Observação: 
+2020/07/10 21:50:37 - Status message: 
+2020/07/10 21:50:37 - Validando status da execução e da rota
+2020/07/10 21:50:37 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:38 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:50:38 - preparaAmbiente_Sure
+2020/07/10 21:50:38 - Transformando step em PEP8
+2020/07/10 21:50:38 - Execute o _Sure
+2020/07/10 21:50:38 - Existe o python
+2020/07/10 21:50:38 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:50:38 - Executando o Python
+2020/07/10 21:50:40 - Resultado do Shell >>> 
+2020/07/10 21:50:40 - pythonJson >>> VAZIO
+2020/07/10 21:50:40 - Lendo o JSON de saida
+2020/07/10 21:50:40 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:40 - Observação: 
+2020/07/10 21:50:40 - Status message: 
+2020/07/10 21:50:40 - Validando status da execução e da rota
+2020/07/10 21:50:40 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:40 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:50:40 - stepTo >>> goGoGo
+2020/07/10 21:50:41 - goGoGo
+2020/07/10 21:50:41 - Transformando step em PEP8
+2020/07/10 21:50:41 - Existe o python
+2020/07/10 21:50:41 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:50:41 - Executando o Python
+2020/07/10 21:50:42 - Resultado do Shell >>> 
+2020/07/10 21:50:42 - pythonJson >>> VAZIO
+2020/07/10 21:50:42 - Lendo o JSON de saida
+2020/07/10 21:50:42 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:50:42 - Observação: 
+2020/07/10 21:50:42 - Status message: 
+2020/07/10 21:50:42 - Validando status da execução e da rota
+2020/07/10 21:50:42 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:50:42 - resolucao 1024 1280
+2020/07/10 21:50:42 - Status message: 
+2020/07/10 21:50:42 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:50:42 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:50:42 - startProcess instanceId = 62ca57c7-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:42 - Insert value - Key: param_in - Value: 
+2020/07/10 21:50:42 - Insert value - Key: param_out - Value: 
+2020/07/10 21:50:42 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:50:42 - Insert value - Key: default_key - Value: 
+2020/07/10 21:50:42 - Insert value - Key: default_route - Value: 
+2020/07/10 21:50:42 - Insert value - Key: default_where - Value: 
+2020/07/10 21:50:42 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:50:42 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:50:42 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:50:42 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:50:42 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:50:42 - Insert value - Key: status_message - Value: 
+2020/07/10 21:50:42 - Inserindo dados no Brain
+2020/07/10 21:50:43 - Pegando as variáveis do Brain
+2020/07/10 21:50:43 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=hRXR28PrG9z9hCsgya3fCPNpS3oCt54ftxEPTAairUWtiK5dPh7kO2mrFrCEYoIR&filter={"where":{"piid":"62ca57c7-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:50:43 - Starting new process instance 
+2020/07/10 21:50:44 - running pesquisa_item
+2020/07/10 21:50:44 - stepAndTalkTo()
+2020/07/10 21:50:44 - Where >>> pesquisa_item
+2020/07/10 21:50:44 - getTask()
+2020/07/10 21:50:44 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=62ca57c7-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:44 - taskUser = 
+2020/07/10 21:50:44 - userId = robot_segunda_via_boleto1
+2020/07/10 21:50:44 - claimTask action = https://10.77.0.185/engine-rest/task/62cb4240-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:50:44 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:50:45 - getTask taskId = 62cb4240-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:45 - getTask processId = 62ca57c7-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:45 - GetInstanceVars()
+2020/07/10 21:50:45 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/62ca57c7-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:50:45 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:50:45 - startProcessControl()
+2020/07/10 21:50:45 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:50:45 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:50:45 - startProcessControl instanceId = 645f01a8-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:45 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:50:45 - Update value - Key: default_key - Value: 
+2020/07/10 21:50:45 - Update value - Key: default_route - Value: 
+2020/07/10 21:50:45 - Update value - Key: default_where - Value: 
+2020/07/10 21:50:45 - Update value - Key: idLicense - Value: 645f01a8-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:50:45 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:50:45 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:50:45 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:50:45 - Update value - Key: status_code - Value: 0
+2020/07/10 21:50:45 - Update value - Key: status_message - Value: 
+2020/07/10 21:50:46 - stepTo >>> pesquisa_item
+2020/07/10 21:51:14 -                                         
+2020/07/10 21:51:14 -  _____ _____ _____    _____         _   
+2020/07/10 21:51:14 - | __  |  _  |  _  |  |_   _|___ ___| |_ 
+2020/07/10 21:51:14 - | __ -|   __|     |    | | | -_|  _|   |
+2020/07/10 21:51:14 - |_____|__|  |__|__|    |_| |___|___|_|_|
+2020/07/10 21:51:14 - |				ROBOT LOG			   |
+2020/07/10 21:51:14 -                                         
+2020/07/10 21:51:14 - TailLog desligado!
+2020/07/10 21:51:14 - Inserindo dados no Brain
+2020/07/10 21:51:15 - Inserindo dados no Brain
+2020/07/10 21:51:15 - Suporte ao multiProcessos DESATIVADO!
+2020/07/10 21:51:15 - stepTo >>> turnOn
+2020/07/10 21:51:16 - turnOn
+2020/07/10 21:51:16 - finalizing stepTo - where:turnOn, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:16 - workingUpdate: 
+2020/07/10 21:51:16 - Pegando as informações do processo no Brain
+2020/07/10 21:51:16 - Inserindo dados no Brain
+2020/07/10 21:51:16 - Id do agente: 11
+2020/07/10 21:51:16 - Inserindo dados no Brain
+2020/07/10 21:51:17 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:51:18 - stepTo >>> preparaAmbiente
+2020/07/10 21:51:18 - preparaAmbiente
+2020/07/10 21:51:18 - Transformando step em PEP8
+2020/07/10 21:51:18 - Existe o python
+2020/07/10 21:51:18 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:51:18 - Executando o Python
+2020/07/10 21:51:20 - Resultado do Shell >>> 
+2020/07/10 21:51:20 - pythonJson >>> VAZIO
+2020/07/10 21:51:20 - Lendo o JSON de saida
+2020/07/10 21:51:20 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:20 - Observação: 
+2020/07/10 21:51:20 - Status message: 
+2020/07/10 21:51:20 - Validando status da execução e da rota
+2020/07/10 21:51:20 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:20 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:51:21 - preparaAmbiente_Sure
+2020/07/10 21:51:21 - Transformando step em PEP8
+2020/07/10 21:51:21 - Execute o _Sure
+2020/07/10 21:51:21 - Existe o python
+2020/07/10 21:51:21 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:51:21 - Executando o Python
+2020/07/10 21:51:22 - Resultado do Shell >>> 
+2020/07/10 21:51:22 - pythonJson >>> VAZIO
+2020/07/10 21:51:22 - Lendo o JSON de saida
+2020/07/10 21:51:22 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:22 - Observação: 
+2020/07/10 21:51:22 - Status message: 
+2020/07/10 21:51:22 - Validando status da execução e da rota
+2020/07/10 21:51:22 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:23 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:51:23 - stepTo >>> goGoGo
+2020/07/10 21:51:23 - goGoGo
+2020/07/10 21:51:23 - Transformando step em PEP8
+2020/07/10 21:51:23 - Existe o python
+2020/07/10 21:51:23 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:51:23 - Executando o Python
+2020/07/10 21:51:25 - Resultado do Shell >>> 
+2020/07/10 21:51:25 - pythonJson >>> VAZIO
+2020/07/10 21:51:25 - Lendo o JSON de saida
+2020/07/10 21:51:25 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:25 - Observação: 
+2020/07/10 21:51:25 - Status message: 
+2020/07/10 21:51:25 - Validando status da execução e da rota
+2020/07/10 21:51:25 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:25 - resolucao 1024 1280
+2020/07/10 21:51:25 - Status message: 
+2020/07/10 21:51:25 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:51:25 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:51:25 - startProcess instanceId = 7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:25 - Insert value - Key: param_in - Value: 
+2020/07/10 21:51:25 - Insert value - Key: param_out - Value: 
+2020/07/10 21:51:25 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:51:25 - Insert value - Key: default_key - Value: 
+2020/07/10 21:51:25 - Insert value - Key: default_route - Value: 
+2020/07/10 21:51:25 - Insert value - Key: default_where - Value: 
+2020/07/10 21:51:25 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:51:25 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:51:25 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:51:25 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:51:25 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:51:25 - Insert value - Key: status_message - Value: 
+2020/07/10 21:51:25 - Inserindo dados no Brain
+2020/07/10 21:51:25 - Pegando as variáveis do Brain
+2020/07/10 21:51:25 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=9h9hHN726H7Y7OptIe5BL3XcXEpnYLp8pSXwCB9qZSOvJAjRKE5nybY3qWvNxDQw&filter={"where":{"piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:51:26 - Starting new process instance 
+2020/07/10 21:51:26 - running pesquisa_item
+2020/07/10 21:51:26 - stepAndTalkTo()
+2020/07/10 21:51:26 - Where >>> pesquisa_item
+2020/07/10 21:51:26 - getTask()
+2020/07/10 21:51:26 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:27 - taskUser = 
+2020/07/10 21:51:27 - userId = robot_segunda_via_boleto1
+2020/07/10 21:51:27 - claimTask action = https://10.77.0.185/engine-rest/task/7c0c68a0-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:51:27 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:51:27 - getTask taskId = 7c0c68a0-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:27 - getTask processId = 7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:27 - GetInstanceVars()
+2020/07/10 21:51:27 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:51:27 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:51:27 - startProcessControl()
+2020/07/10 21:51:27 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:51:27 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:51:27 - startProcessControl instanceId = 7d9e5348-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:27 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:51:27 - Update value - Key: default_key - Value: 
+2020/07/10 21:51:27 - Update value - Key: default_route - Value: 
+2020/07/10 21:51:27 - Update value - Key: default_where - Value: 
+2020/07/10 21:51:27 - Update value - Key: idLicense - Value: 7d9e5348-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:27 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:51:27 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:51:27 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:51:27 - Update value - Key: status_code - Value: 0
+2020/07/10 21:51:27 - Update value - Key: status_message - Value: 
+2020/07/10 21:51:28 - stepTo >>> pesquisa_item
+2020/07/10 21:51:29 - pesquisa_item
+2020/07/10 21:51:29 - Transformando step em PEP8
+2020/07/10 21:51:29 - Existe o python
+2020/07/10 21:51:29 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item"
+2020/07/10 21:51:29 - Executando o Python
+2020/07/10 21:51:30 - Resultado do Shell >>> 
+2020/07/10 21:51:30 - pythonJson >>> VAZIO
+2020/07/10 21:51:30 - Lendo o JSON de saida
+2020/07/10 21:51:30 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:51:25.000Z","id":1993215,"key":"param_in","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993216,"key":"param_out","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993217,"key":"autoCompletar","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:51:25.000Z","id":1993218,"key":"default_key","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993219,"key":"idLicense","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"7d9e5348-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:51:25.000Z","id":1993220,"key":"default_where","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993221,"key":"obsLogBanco","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993222,"key":"ntt_number","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993223,"key":"process_name","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:51:25.000Z","id":1993224,"key":"status_code","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:51:25.000Z","id":1993225,"key":"default_route","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993226,"key":"status_message","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:30 - Observação: 
+2020/07/10 21:51:30 - Status message: 
+2020/07/10 21:51:30 - Validando status da execução e da rota
+2020/07/10 21:51:30 - finalizing stepTo - where:pesquisa_item, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:30 - stepTo >>> pesquisa_item_Sure
+2020/07/10 21:51:31 - pesquisa_item_Sure
+2020/07/10 21:51:31 - Transformando step em PEP8
+2020/07/10 21:51:31 - Execute o _Sure
+2020/07/10 21:51:31 - Existe o python
+2020/07/10 21:51:31 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item_sure"
+2020/07/10 21:51:31 - Executando o Python
+2020/07/10 21:51:32 - Resultado do Shell >>> 
+2020/07/10 21:51:32 - pythonJson >>> VAZIO
+2020/07/10 21:51:32 - Lendo o JSON de saida
+2020/07/10 21:51:32 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:51:25.000Z","id":1993215,"key":"param_in","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993216,"key":"param_out","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993217,"key":"autoCompletar","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:51:25.000Z","id":1993218,"key":"default_key","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993219,"key":"idLicense","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"7d9e5348-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:51:25.000Z","id":1993220,"key":"default_where","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993221,"key":"obsLogBanco","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993222,"key":"ntt_number","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993223,"key":"process_name","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:51:25.000Z","id":1993224,"key":"status_code","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:51:25.000Z","id":1993225,"key":"default_route","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:25.000Z","id":1993226,"key":"status_message","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"7c0c4177-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:32 - Observação: 
+2020/07/10 21:51:32 - Status message: 
+2020/07/10 21:51:32 - Validando status da execução e da rota
+2020/07/10 21:51:32 - finalizing stepTo - where:pesquisa_item_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:33 - stepAndCheck - where:pesquisa_item - statuscode 0 - returning 1
+2020/07/10 21:51:33 - stepAndTalkTo - where: pesquisa_item - statuscode: 0 - sucesso 1
+2020/07/10 21:51:33 - Status message: 
+2020/07/10 21:51:33 - Status message: success at pesquisa_item
+2020/07/10 21:51:33 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:51:33 - Update value - Key: default_key - Value: 
+2020/07/10 21:51:33 - Update value - Key: default_route - Value: 
+2020/07/10 21:51:33 - Update value - Key: default_where - Value: pesquisa_item
+2020/07/10 21:51:33 - Update value - Key: idLicense - Value: 7d9e5348-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:33 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:51:33 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:51:33 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:51:33 - Update value - Key: status_code - Value: 0
+2020/07/10 21:51:33 - Update value - Key: status_message - Value: success at pesquisa_item
+2020/07/10 21:51:33 - completeTask action = https://10.77.0.185/engine-rest/task/7c0c68a0-c2f7-11ea-a1fe-0291a8c4bdf0/complete
+2020/07/10 21:51:33 - Status message: success at pesquisa_item
+2020/07/10 21:51:33 - Observação: 
+2020/07/10 21:51:33 - completeTask JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"pesquisa_item","valueInfo":{}},"idLicense":{"type":"String","value":"7d9e5348-c2f7-11ea-a1fe-0291a8c4bdf0","valueInfo":{}},"ntt_number":{"type":"String","value":"RegistroFrete-20200710215133","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"param_in":{"type":"String","value":""},"param_out":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"status_message":{"type":"String","value":"success at pesquisa_item","valueInfo":{}}}}
+2020/07/10 21:51:33 - Task atual --> pesquisa_item
+2020/07/10 21:51:33 - Realizando atualização do valor da variável multiplo
+2020/07/10 21:51:33 - completeTask retorno = 
+2020/07/10 21:51:33 - stepTo >>> lapCompleted
+2020/07/10 21:51:34 - lapCompleted
+2020/07/10 21:51:34 - finalizing stepTo - where:lapCompleted, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:34 - workingUpdate: 
+2020/07/10 21:51:34 - Pegando as informações do processo no Brain
+2020/07/10 21:51:34 - Inserindo dados no Brain
+2020/07/10 21:51:34 - Id do agente: 11
+2020/07/10 21:51:34 - Inserindo dados no Brain
+2020/07/10 21:51:35 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:51:36 - stepTo >>> preparaAmbiente
+2020/07/10 21:51:36 - preparaAmbiente
+2020/07/10 21:51:36 - Transformando step em PEP8
+2020/07/10 21:51:36 - Existe o python
+2020/07/10 21:51:36 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:51:36 - Executando o Python
+2020/07/10 21:51:38 - Resultado do Shell >>> 
+2020/07/10 21:51:38 - pythonJson >>> VAZIO
+2020/07/10 21:51:38 - Lendo o JSON de saida
+2020/07/10 21:51:38 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:38 - Observação: 
+2020/07/10 21:51:38 - Status message: 
+2020/07/10 21:51:38 - Validando status da execução e da rota
+2020/07/10 21:51:38 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:38 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:51:39 - preparaAmbiente_Sure
+2020/07/10 21:51:39 - Transformando step em PEP8
+2020/07/10 21:51:39 - Execute o _Sure
+2020/07/10 21:51:39 - Existe o python
+2020/07/10 21:51:39 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:51:39 - Executando o Python
+2020/07/10 21:51:40 - Resultado do Shell >>> 
+2020/07/10 21:51:40 - pythonJson >>> VAZIO
+2020/07/10 21:51:40 - Lendo o JSON de saida
+2020/07/10 21:51:40 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:40 - Observação: 
+2020/07/10 21:51:40 - Status message: 
+2020/07/10 21:51:40 - Validando status da execução e da rota
+2020/07/10 21:51:40 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:41 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:51:41 - stepTo >>> goGoGo
+2020/07/10 21:51:41 - goGoGo
+2020/07/10 21:51:41 - Transformando step em PEP8
+2020/07/10 21:51:41 - Existe o python
+2020/07/10 21:51:41 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:51:41 - Executando o Python
+2020/07/10 21:51:43 - Resultado do Shell >>> 
+2020/07/10 21:51:43 - pythonJson >>> VAZIO
+2020/07/10 21:51:43 - Lendo o JSON de saida
+2020/07/10 21:51:43 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:43 - Observação: 
+2020/07/10 21:51:43 - Status message: 
+2020/07/10 21:51:43 - Validando status da execução e da rota
+2020/07/10 21:51:43 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:43 - resolucao 1024 1280
+2020/07/10 21:51:43 - Status message: 
+2020/07/10 21:51:43 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:51:43 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:51:43 - startProcess instanceId = 86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:43 - Insert value - Key: param_in - Value: 
+2020/07/10 21:51:43 - Insert value - Key: param_out - Value: 
+2020/07/10 21:51:43 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:51:43 - Insert value - Key: default_key - Value: 
+2020/07/10 21:51:43 - Insert value - Key: default_route - Value: 
+2020/07/10 21:51:43 - Insert value - Key: default_where - Value: 
+2020/07/10 21:51:43 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:51:43 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:51:43 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:51:43 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:51:43 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:51:43 - Insert value - Key: status_message - Value: 
+2020/07/10 21:51:43 - Inserindo dados no Brain
+2020/07/10 21:51:43 - Pegando as variáveis do Brain
+2020/07/10 21:51:43 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=9h9hHN726H7Y7OptIe5BL3XcXEpnYLp8pSXwCB9qZSOvJAjRKE5nybY3qWvNxDQw&filter={"where":{"piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:51:44 - Starting new process instance 
+2020/07/10 21:51:44 - running pesquisa_item
+2020/07/10 21:51:44 - stepAndTalkTo()
+2020/07/10 21:51:44 - Where >>> pesquisa_item
+2020/07/10 21:51:44 - getTask()
+2020/07/10 21:51:44 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:45 - taskUser = 
+2020/07/10 21:51:45 - userId = robot_segunda_via_boleto1
+2020/07/10 21:51:45 - claimTask action = https://10.77.0.185/engine-rest/task/86cbb924-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:51:45 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:51:45 - getTask taskId = 86cbb924-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:45 - getTask processId = 86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:45 - GetInstanceVars()
+2020/07/10 21:51:45 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:51:45 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:51:45 - startProcessControl()
+2020/07/10 21:51:45 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:51:45 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:51:46 - startProcessControl instanceId = 88639655-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:46 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:51:46 - Update value - Key: default_key - Value: 
+2020/07/10 21:51:46 - Update value - Key: default_route - Value: 
+2020/07/10 21:51:46 - Update value - Key: default_where - Value: 
+2020/07/10 21:51:46 - Update value - Key: idLicense - Value: 88639655-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:46 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:51:46 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:51:46 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:51:46 - Update value - Key: status_code - Value: 0
+2020/07/10 21:51:46 - Update value - Key: status_message - Value: 
+2020/07/10 21:51:46 - stepTo >>> pesquisa_item
+2020/07/10 21:51:47 - pesquisa_item
+2020/07/10 21:51:47 - Transformando step em PEP8
+2020/07/10 21:51:47 - Existe o python
+2020/07/10 21:51:47 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item"
+2020/07/10 21:51:47 - Executando o Python
+2020/07/10 21:51:48 - Resultado do Shell >>> 
+2020/07/10 21:51:48 - pythonJson >>> VAZIO
+2020/07/10 21:51:48 - Lendo o JSON de saida
+2020/07/10 21:51:48 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:51:43.000Z","id":1993238,"key":"param_in","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993239,"key":"param_out","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993240,"key":"default_key","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993241,"key":"autoCompletar","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:51:43.000Z","id":1993242,"key":"default_route","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993243,"key":"default_where","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993244,"key":"ntt_number","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993245,"key":"obsLogBanco","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993246,"key":"process_name","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:51:43.000Z","id":1993247,"key":"idLicense","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"88639655-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:51:43.000Z","id":1993248,"key":"status_message","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993249,"key":"status_code","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:48 - Observação: 
+2020/07/10 21:51:48 - Status message: 
+2020/07/10 21:51:48 - Validando status da execução e da rota
+2020/07/10 21:51:48 - finalizing stepTo - where:pesquisa_item, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:49 - stepTo >>> pesquisa_item_Sure
+2020/07/10 21:51:49 - pesquisa_item_Sure
+2020/07/10 21:51:49 - Transformando step em PEP8
+2020/07/10 21:51:49 - Execute o _Sure
+2020/07/10 21:51:49 - Existe o python
+2020/07/10 21:51:49 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item_sure"
+2020/07/10 21:51:49 - Executando o Python
+2020/07/10 21:51:51 - Resultado do Shell >>> 
+2020/07/10 21:51:51 - pythonJson >>> VAZIO
+2020/07/10 21:51:51 - Lendo o JSON de saida
+2020/07/10 21:51:51 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:51:43.000Z","id":1993238,"key":"param_in","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993239,"key":"param_out","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993240,"key":"default_key","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993241,"key":"autoCompletar","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:51:43.000Z","id":1993242,"key":"default_route","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993243,"key":"default_where","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993244,"key":"ntt_number","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993245,"key":"obsLogBanco","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993246,"key":"process_name","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:51:43.000Z","id":1993247,"key":"idLicense","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"88639655-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:51:43.000Z","id":1993248,"key":"status_message","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:51:43.000Z","id":1993249,"key":"status_code","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"86cb91fb-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:51 - Observação: 
+2020/07/10 21:51:51 - Status message: 
+2020/07/10 21:51:51 - Validando status da execução e da rota
+2020/07/10 21:51:51 - finalizing stepTo - where:pesquisa_item_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:51 - stepAndCheck - where:pesquisa_item - statuscode 0 - returning 1
+2020/07/10 21:51:51 - stepAndTalkTo - where: pesquisa_item - statuscode: 0 - sucesso 1
+2020/07/10 21:51:51 - Status message: 
+2020/07/10 21:51:51 - Status message: success at pesquisa_item
+2020/07/10 21:51:51 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:51:51 - Update value - Key: default_key - Value: 
+2020/07/10 21:51:51 - Update value - Key: default_route - Value: 
+2020/07/10 21:51:51 - Update value - Key: default_where - Value: pesquisa_item
+2020/07/10 21:51:51 - Update value - Key: idLicense - Value: 88639655-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:51:51 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:51:51 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:51:51 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:51:51 - Update value - Key: status_code - Value: 0
+2020/07/10 21:51:51 - Update value - Key: status_message - Value: success at pesquisa_item
+2020/07/10 21:51:51 - completeTask action = https://10.77.0.185/engine-rest/task/86cbb924-c2f7-11ea-a1fe-0291a8c4bdf0/complete
+2020/07/10 21:51:51 - Status message: success at pesquisa_item
+2020/07/10 21:51:51 - Observação: 
+2020/07/10 21:51:51 - completeTask JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"pesquisa_item","valueInfo":{}},"idLicense":{"type":"String","value":"88639655-c2f7-11ea-a1fe-0291a8c4bdf0","valueInfo":{}},"ntt_number":{"type":"String","value":"RegistroFrete-20200710215151","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"param_in":{"type":"String","value":""},"param_out":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"status_message":{"type":"String","value":"success at pesquisa_item","valueInfo":{}}}}
+2020/07/10 21:51:51 - Task atual --> pesquisa_item
+2020/07/10 21:51:51 - Realizando atualização do valor da variável multiplo
+2020/07/10 21:51:52 - completeTask retorno = 
+2020/07/10 21:51:52 - stepTo >>> lapCompleted
+2020/07/10 21:51:52 - lapCompleted
+2020/07/10 21:51:52 - finalizing stepTo - where:lapCompleted, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:52 - workingUpdate: 
+2020/07/10 21:51:52 - Pegando as informações do processo no Brain
+2020/07/10 21:51:52 - Inserindo dados no Brain
+2020/07/10 21:51:52 - Id do agente: 11
+2020/07/10 21:51:52 - Inserindo dados no Brain
+2020/07/10 21:51:53 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:51:54 - stepTo >>> preparaAmbiente
+2020/07/10 21:51:54 - preparaAmbiente
+2020/07/10 21:51:54 - Transformando step em PEP8
+2020/07/10 21:51:54 - Existe o python
+2020/07/10 21:51:54 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:51:54 - Executando o Python
+2020/07/10 21:51:56 - Resultado do Shell >>> 
+2020/07/10 21:51:56 - pythonJson >>> VAZIO
+2020/07/10 21:51:56 - Lendo o JSON de saida
+2020/07/10 21:51:56 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:56 - Observação: 
+2020/07/10 21:51:56 - Status message: 
+2020/07/10 21:51:56 - Validando status da execução e da rota
+2020/07/10 21:51:56 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:56 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:51:57 - preparaAmbiente_Sure
+2020/07/10 21:51:57 - Transformando step em PEP8
+2020/07/10 21:51:57 - Execute o _Sure
+2020/07/10 21:51:57 - Existe o python
+2020/07/10 21:51:57 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:51:57 - Executando o Python
+2020/07/10 21:51:58 - Resultado do Shell >>> 
+2020/07/10 21:51:58 - pythonJson >>> VAZIO
+2020/07/10 21:51:58 - Lendo o JSON de saida
+2020/07/10 21:51:58 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:51:58 - Observação: 
+2020/07/10 21:51:58 - Status message: 
+2020/07/10 21:51:58 - Validando status da execução e da rota
+2020/07/10 21:51:58 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:51:59 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:51:59 - stepTo >>> goGoGo
+2020/07/10 21:51:59 - goGoGo
+2020/07/10 21:51:59 - Transformando step em PEP8
+2020/07/10 21:51:59 - Existe o python
+2020/07/10 21:51:59 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:51:59 - Executando o Python
+2020/07/10 21:52:01 - Resultado do Shell >>> 
+2020/07/10 21:52:01 - pythonJson >>> VAZIO
+2020/07/10 21:52:01 - Lendo o JSON de saida
+2020/07/10 21:52:01 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:01 - Observação: 
+2020/07/10 21:52:01 - Status message: 
+2020/07/10 21:52:01 - Validando status da execução e da rota
+2020/07/10 21:52:01 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:01 - resolucao 1024 1280
+2020/07/10 21:52:01 - Status message: 
+2020/07/10 21:52:01 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:52:01 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:52:01 - startProcess instanceId = 91a26134-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:01 - Insert value - Key: param_in - Value: 
+2020/07/10 21:52:01 - Insert value - Key: param_out - Value: 
+2020/07/10 21:52:01 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:52:01 - Insert value - Key: default_key - Value: 
+2020/07/10 21:52:01 - Insert value - Key: default_route - Value: 
+2020/07/10 21:52:01 - Insert value - Key: default_where - Value: 
+2020/07/10 21:52:01 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:52:01 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:52:01 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:52:01 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:52:01 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:52:01 - Insert value - Key: status_message - Value: 
+2020/07/10 21:52:01 - Inserindo dados no Brain
+2020/07/10 21:52:01 - Pegando as variáveis do Brain
+2020/07/10 21:52:01 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=9h9hHN726H7Y7OptIe5BL3XcXEpnYLp8pSXwCB9qZSOvJAjRKE5nybY3qWvNxDQw&filter={"where":{"piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:52:02 - Starting new process instance 
+2020/07/10 21:52:03 - running pesquisa_item
+2020/07/10 21:52:03 - stepAndTalkTo()
+2020/07/10 21:52:03 - Where >>> pesquisa_item
+2020/07/10 21:52:03 - getTask()
+2020/07/10 21:52:03 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=91a26134-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:03 - taskUser = 
+2020/07/10 21:52:03 - userId = robot_segunda_via_boleto1
+2020/07/10 21:52:03 - claimTask action = https://10.77.0.185/engine-rest/task/91a2af6d-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:52:03 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:52:03 - getTask taskId = 91a2af6d-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:03 - getTask processId = 91a26134-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:03 - GetInstanceVars()
+2020/07/10 21:52:03 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/91a26134-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:52:03 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:52:03 - startProcessControl()
+2020/07/10 21:52:03 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:52:03 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:52:04 - startProcessControl instanceId = 93440365-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:04 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:52:04 - Update value - Key: default_key - Value: 
+2020/07/10 21:52:04 - Update value - Key: default_route - Value: 
+2020/07/10 21:52:04 - Update value - Key: default_where - Value: 
+2020/07/10 21:52:04 - Update value - Key: idLicense - Value: 93440365-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:04 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:52:04 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:52:04 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:52:04 - Update value - Key: status_code - Value: 0
+2020/07/10 21:52:04 - Update value - Key: status_message - Value: 
+2020/07/10 21:52:04 - stepTo >>> pesquisa_item
+2020/07/10 21:52:05 - pesquisa_item
+2020/07/10 21:52:05 - Transformando step em PEP8
+2020/07/10 21:52:05 - Existe o python
+2020/07/10 21:52:05 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item"
+2020/07/10 21:52:05 - Executando o Python
+2020/07/10 21:52:06 - Resultado do Shell >>> 
+2020/07/10 21:52:06 - pythonJson >>> VAZIO
+2020/07/10 21:52:06 - Lendo o JSON de saida
+2020/07/10 21:52:06 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:52:01.000Z","id":1993251,"key":"param_in","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993252,"key":"autoCompletar","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:52:01.000Z","id":1993253,"key":"param_out","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993254,"key":"default_key","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993255,"key":"default_where","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993256,"key":"idLicense","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"93440365-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:52:01.000Z","id":1993257,"key":"ntt_number","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993258,"key":"process_name","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:52:01.000Z","id":1993259,"key":"obsLogBanco","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993260,"key":"default_route","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993261,"key":"status_message","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993262,"key":"status_code","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:06 - Observação: 
+2020/07/10 21:52:06 - Status message: 
+2020/07/10 21:52:06 - Validando status da execução e da rota
+2020/07/10 21:52:06 - finalizing stepTo - where:pesquisa_item, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:07 - stepTo >>> pesquisa_item_Sure
+2020/07/10 21:52:07 - pesquisa_item_Sure
+2020/07/10 21:52:07 - Transformando step em PEP8
+2020/07/10 21:52:07 - Execute o _Sure
+2020/07/10 21:52:07 - Existe o python
+2020/07/10 21:52:07 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item_sure"
+2020/07/10 21:52:07 - Executando o Python
+2020/07/10 21:52:09 - Resultado do Shell >>> 
+2020/07/10 21:52:09 - pythonJson >>> VAZIO
+2020/07/10 21:52:09 - Lendo o JSON de saida
+2020/07/10 21:52:09 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:52:01.000Z","id":1993251,"key":"param_in","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993252,"key":"autoCompletar","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:52:01.000Z","id":1993253,"key":"param_out","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993254,"key":"default_key","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993255,"key":"default_where","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993256,"key":"idLicense","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"93440365-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:52:01.000Z","id":1993257,"key":"ntt_number","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993258,"key":"process_name","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:52:01.000Z","id":1993259,"key":"obsLogBanco","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993260,"key":"default_route","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993261,"key":"status_message","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:01.000Z","id":1993262,"key":"status_code","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"91a26134-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:09 - Observação: 
+2020/07/10 21:52:09 - Status message: 
+2020/07/10 21:52:09 - Validando status da execução e da rota
+2020/07/10 21:52:09 - finalizing stepTo - where:pesquisa_item_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:09 - stepAndCheck - where:pesquisa_item - statuscode 0 - returning 1
+2020/07/10 21:52:09 - stepAndTalkTo - where: pesquisa_item - statuscode: 0 - sucesso 1
+2020/07/10 21:52:09 - Status message: 
+2020/07/10 21:52:09 - Status message: success at pesquisa_item
+2020/07/10 21:52:09 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:52:09 - Update value - Key: default_key - Value: 
+2020/07/10 21:52:09 - Update value - Key: default_route - Value: 
+2020/07/10 21:52:09 - Update value - Key: default_where - Value: pesquisa_item
+2020/07/10 21:52:09 - Update value - Key: idLicense - Value: 93440365-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:09 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:52:09 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:52:09 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:52:09 - Update value - Key: status_code - Value: 0
+2020/07/10 21:52:09 - Update value - Key: status_message - Value: success at pesquisa_item
+2020/07/10 21:52:09 - completeTask action = https://10.77.0.185/engine-rest/task/91a2af6d-c2f7-11ea-a1fe-0291a8c4bdf0/complete
+2020/07/10 21:52:09 - Status message: success at pesquisa_item
+2020/07/10 21:52:09 - Observação: 
+2020/07/10 21:52:09 - completeTask JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"pesquisa_item","valueInfo":{}},"idLicense":{"type":"String","value":"93440365-c2f7-11ea-a1fe-0291a8c4bdf0","valueInfo":{}},"ntt_number":{"type":"String","value":"RegistroFrete-20200710215209","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"param_in":{"type":"String","value":""},"param_out":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"status_message":{"type":"String","value":"success at pesquisa_item","valueInfo":{}}}}
+2020/07/10 21:52:10 - Task atual --> pesquisa_item
+2020/07/10 21:52:10 - Realizando atualização do valor da variável multiplo
+2020/07/10 21:52:10 - completeTask retorno = 
+2020/07/10 21:52:10 - stepTo >>> lapCompleted
+2020/07/10 21:52:10 - lapCompleted
+2020/07/10 21:52:10 - finalizing stepTo - where:lapCompleted, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:10 - workingUpdate: 
+2020/07/10 21:52:10 - Pegando as informações do processo no Brain
+2020/07/10 21:52:11 - Inserindo dados no Brain
+2020/07/10 21:52:11 - Id do agente: 11
+2020/07/10 21:52:11 - Inserindo dados no Brain
+2020/07/10 21:52:11 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:52:12 - stepTo >>> preparaAmbiente
+2020/07/10 21:52:13 - preparaAmbiente
+2020/07/10 21:52:13 - Transformando step em PEP8
+2020/07/10 21:52:13 - Existe o python
+2020/07/10 21:52:13 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:52:13 - Executando o Python
+2020/07/10 21:52:14 - Resultado do Shell >>> 
+2020/07/10 21:52:14 - pythonJson >>> VAZIO
+2020/07/10 21:52:14 - Lendo o JSON de saida
+2020/07/10 21:52:14 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:14 - Observação: 
+2020/07/10 21:52:14 - Status message: 
+2020/07/10 21:52:14 - Validando status da execução e da rota
+2020/07/10 21:52:14 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:14 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:52:15 - preparaAmbiente_Sure
+2020/07/10 21:52:15 - Transformando step em PEP8
+2020/07/10 21:52:15 - Execute o _Sure
+2020/07/10 21:52:15 - Existe o python
+2020/07/10 21:52:15 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:52:15 - Executando o Python
+2020/07/10 21:52:16 - Resultado do Shell >>> 
+2020/07/10 21:52:16 - pythonJson >>> VAZIO
+2020/07/10 21:52:16 - Lendo o JSON de saida
+2020/07/10 21:52:16 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:16 - Observação: 
+2020/07/10 21:52:16 - Status message: 
+2020/07/10 21:52:16 - Validando status da execução e da rota
+2020/07/10 21:52:16 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:17 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:52:17 - stepTo >>> goGoGo
+2020/07/10 21:52:17 - goGoGo
+2020/07/10 21:52:17 - Transformando step em PEP8
+2020/07/10 21:52:17 - Existe o python
+2020/07/10 21:52:17 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:52:17 - Executando o Python
+2020/07/10 21:52:19 - Resultado do Shell >>> 
+2020/07/10 21:52:19 - pythonJson >>> VAZIO
+2020/07/10 21:52:19 - Lendo o JSON de saida
+2020/07/10 21:52:19 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:19 - Observação: 
+2020/07/10 21:52:19 - Status message: 
+2020/07/10 21:52:19 - Validando status da execução e da rota
+2020/07/10 21:52:19 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:19 - resolucao 1024 1280
+2020/07/10 21:52:19 - Status message: 
+2020/07/10 21:52:19 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:52:19 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:52:19 - startProcess instanceId = 9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:19 - Insert value - Key: param_in - Value: 
+2020/07/10 21:52:19 - Insert value - Key: param_out - Value: 
+2020/07/10 21:52:19 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:52:19 - Insert value - Key: default_key - Value: 
+2020/07/10 21:52:19 - Insert value - Key: default_route - Value: 
+2020/07/10 21:52:19 - Insert value - Key: default_where - Value: 
+2020/07/10 21:52:19 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:52:19 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:52:19 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:52:19 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:52:19 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:52:19 - Insert value - Key: status_message - Value: 
+2020/07/10 21:52:19 - Inserindo dados no Brain
+2020/07/10 21:52:19 - Pegando as variáveis do Brain
+2020/07/10 21:52:19 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=9h9hHN726H7Y7OptIe5BL3XcXEpnYLp8pSXwCB9qZSOvJAjRKE5nybY3qWvNxDQw&filter={"where":{"piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:52:20 - Starting new process instance 
+2020/07/10 21:52:21 - running pesquisa_item
+2020/07/10 21:52:21 - stepAndTalkTo()
+2020/07/10 21:52:21 - Where >>> pesquisa_item
+2020/07/10 21:52:21 - getTask()
+2020/07/10 21:52:21 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:21 - taskUser = 
+2020/07/10 21:52:21 - userId = robot_segunda_via_boleto1
+2020/07/10 21:52:21 - claimTask action = https://10.77.0.185/engine-rest/task/9c6dbf83-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:52:21 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:52:21 - getTask taskId = 9c6dbf83-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:21 - getTask processId = 9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:21 - GetInstanceVars()
+2020/07/10 21:52:21 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:52:22 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:52:22 - startProcessControl()
+2020/07/10 21:52:22 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:52:22 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:52:22 - startProcessControl instanceId = 9dfff84b-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:22 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:52:22 - Update value - Key: default_key - Value: 
+2020/07/10 21:52:22 - Update value - Key: default_route - Value: 
+2020/07/10 21:52:22 - Update value - Key: default_where - Value: 
+2020/07/10 21:52:22 - Update value - Key: idLicense - Value: 9dfff84b-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:22 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:52:22 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:52:22 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:52:22 - Update value - Key: status_code - Value: 0
+2020/07/10 21:52:22 - Update value - Key: status_message - Value: 
+2020/07/10 21:52:22 - stepTo >>> pesquisa_item
+2020/07/10 21:52:23 - pesquisa_item
+2020/07/10 21:52:23 - Transformando step em PEP8
+2020/07/10 21:52:23 - Existe o python
+2020/07/10 21:52:23 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item"
+2020/07/10 21:52:23 - Executando o Python
+2020/07/10 21:52:24 - Resultado do Shell >>> 
+2020/07/10 21:52:24 - pythonJson >>> VAZIO
+2020/07/10 21:52:24 - Lendo o JSON de saida
+2020/07/10 21:52:24 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:52:19.000Z","id":1993263,"key":"param_in","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993264,"key":"param_out","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993265,"key":"autoCompletar","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:52:19.000Z","id":1993266,"key":"default_key","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993267,"key":"default_route","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993268,"key":"default_where","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993269,"key":"idLicense","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"9dfff84b-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:52:19.000Z","id":1993270,"key":"ntt_number","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993271,"key":"process_name","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:52:19.000Z","id":1993272,"key":"obsLogBanco","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993273,"key":"status_code","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:52:19.000Z","id":1993274,"key":"status_message","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:24 - Observação: 
+2020/07/10 21:52:24 - Status message: 
+2020/07/10 21:52:24 - Validando status da execução e da rota
+2020/07/10 21:52:24 - finalizing stepTo - where:pesquisa_item, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:25 - stepTo >>> pesquisa_item_Sure
+2020/07/10 21:52:25 - pesquisa_item_Sure
+2020/07/10 21:52:25 - Transformando step em PEP8
+2020/07/10 21:52:25 - Execute o _Sure
+2020/07/10 21:52:25 - Existe o python
+2020/07/10 21:52:25 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item_sure"
+2020/07/10 21:52:25 - Executando o Python
+2020/07/10 21:52:27 - Resultado do Shell >>> 
+2020/07/10 21:52:27 - pythonJson >>> VAZIO
+2020/07/10 21:52:27 - Lendo o JSON de saida
+2020/07/10 21:52:27 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:52:19.000Z","id":1993263,"key":"param_in","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993264,"key":"param_out","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993265,"key":"autoCompletar","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:52:19.000Z","id":1993266,"key":"default_key","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993267,"key":"default_route","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993268,"key":"default_where","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993269,"key":"idLicense","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"9dfff84b-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:52:19.000Z","id":1993270,"key":"ntt_number","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993271,"key":"process_name","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:52:19.000Z","id":1993272,"key":"obsLogBanco","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:19.000Z","id":1993273,"key":"status_code","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:52:19.000Z","id":1993274,"key":"status_message","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"9c6d714a-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:27 - Observação: 
+2020/07/10 21:52:27 - Status message: 
+2020/07/10 21:52:27 - Validando status da execução e da rota
+2020/07/10 21:52:27 - finalizing stepTo - where:pesquisa_item_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:27 - stepAndCheck - where:pesquisa_item - statuscode 0 - returning 1
+2020/07/10 21:52:27 - stepAndTalkTo - where: pesquisa_item - statuscode: 0 - sucesso 1
+2020/07/10 21:52:27 - Status message: 
+2020/07/10 21:52:27 - Status message: success at pesquisa_item
+2020/07/10 21:52:27 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:52:27 - Update value - Key: default_key - Value: 
+2020/07/10 21:52:27 - Update value - Key: default_route - Value: 
+2020/07/10 21:52:27 - Update value - Key: default_where - Value: pesquisa_item
+2020/07/10 21:52:27 - Update value - Key: idLicense - Value: 9dfff84b-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:27 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:52:27 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:52:27 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:52:27 - Update value - Key: status_code - Value: 0
+2020/07/10 21:52:27 - Update value - Key: status_message - Value: success at pesquisa_item
+2020/07/10 21:52:27 - completeTask action = https://10.77.0.185/engine-rest/task/9c6dbf83-c2f7-11ea-a1fe-0291a8c4bdf0/complete
+2020/07/10 21:52:27 - Status message: success at pesquisa_item
+2020/07/10 21:52:27 - Observação: 
+2020/07/10 21:52:27 - completeTask JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"pesquisa_item","valueInfo":{}},"idLicense":{"type":"String","value":"9dfff84b-c2f7-11ea-a1fe-0291a8c4bdf0","valueInfo":{}},"ntt_number":{"type":"String","value":"RegistroFrete-20200710215227","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"param_in":{"type":"String","value":""},"param_out":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"status_message":{"type":"String","value":"success at pesquisa_item","valueInfo":{}}}}
+2020/07/10 21:52:28 - Task atual --> pesquisa_item
+2020/07/10 21:52:28 - Realizando atualização do valor da variável multiplo
+2020/07/10 21:52:28 - completeTask retorno = 
+2020/07/10 21:52:28 - stepTo >>> lapCompleted
+2020/07/10 21:52:28 - lapCompleted
+2020/07/10 21:52:28 - finalizing stepTo - where:lapCompleted, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:28 - workingUpdate: 
+2020/07/10 21:52:28 - Pegando as informações do processo no Brain
+2020/07/10 21:52:28 - Inserindo dados no Brain
+2020/07/10 21:52:29 - Id do agente: 11
+2020/07/10 21:52:29 - Inserindo dados no Brain
+2020/07/10 21:52:29 - racing in mode -> inline(oneProduce=0)
+2020/07/10 21:52:30 - stepTo >>> preparaAmbiente
+2020/07/10 21:52:30 - preparaAmbiente
+2020/07/10 21:52:30 - Transformando step em PEP8
+2020/07/10 21:52:30 - Existe o python
+2020/07/10 21:52:30 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente"
+2020/07/10 21:52:30 - Executando o Python
+2020/07/10 21:52:32 - Resultado do Shell >>> 
+2020/07/10 21:52:32 - pythonJson >>> VAZIO
+2020/07/10 21:52:32 - Lendo o JSON de saida
+2020/07/10 21:52:32 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:32 - Observação: 
+2020/07/10 21:52:32 - Status message: 
+2020/07/10 21:52:32 - Validando status da execução e da rota
+2020/07/10 21:52:32 - finalizing stepTo - where:prepara_ambiente, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:32 - stepTo >>> preparaAmbiente_Sure
+2020/07/10 21:52:33 - preparaAmbiente_Sure
+2020/07/10 21:52:33 - Transformando step em PEP8
+2020/07/10 21:52:33 - Execute o _Sure
+2020/07/10 21:52:33 - Existe o python
+2020/07/10 21:52:33 - executePython(filePieces) >>> "prepara_ambiente.prepara_ambiente_sure"
+2020/07/10 21:52:33 - Executando o Python
+2020/07/10 21:52:34 - Resultado do Shell >>> 
+2020/07/10 21:52:34 - pythonJson >>> VAZIO
+2020/07/10 21:52:34 - Lendo o JSON de saida
+2020/07/10 21:52:34 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:34 - Observação: 
+2020/07/10 21:52:34 - Status message: 
+2020/07/10 21:52:34 - Validando status da execução e da rota
+2020/07/10 21:52:34 - finalizing stepTo - where:prepara_ambiente_sure, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:35 - stepAndCheck - where:preparaAmbiente - statuscode 0 - returning 1
+2020/07/10 21:52:35 - stepTo >>> goGoGo
+2020/07/10 21:52:35 - goGoGo
+2020/07/10 21:52:35 - Transformando step em PEP8
+2020/07/10 21:52:35 - Existe o python
+2020/07/10 21:52:35 - executePython(filePieces) >>> "gogogo.gogogo"
+2020/07/10 21:52:35 - Executando o Python
+2020/07/10 21:52:37 - Resultado do Shell >>> 
+2020/07/10 21:52:37 - pythonJson >>> VAZIO
+2020/07/10 21:52:37 - Lendo o JSON de saida
+2020/07/10 21:52:37 - Retorno do Shell: 
+
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:37 - Observação: 
+2020/07/10 21:52:37 - Status message: 
+2020/07/10 21:52:37 - Validando status da execução e da rota
+2020/07/10 21:52:37 - finalizing stepTo - where:gogogo, statuscode 0, returning 1, defaultRoute , defaultKey 
+2020/07/10 21:52:37 - resolucao 1024 1280
+2020/07/10 21:52:37 - Status message: 
+2020/07/10 21:52:37 - startProcess action = https://10.77.0.185/engine-rest/process-definition/key/RegistroFrete/start
+2020/07/10 21:52:37 - startProcess JSONString = {"variables":{"autoCompletar":{"type":"String","value":"false"},"default_key":{"type":"String","value":""},"default_route":{"type":"String","value":""},"default_where":{"type":"String","value":""},"idLicense":{"type":"String","value":""},"ntt_number":{"type":"String","value":""},"obsLogBanco":{"type":"String","value":""},"process_name":{"type":"String","value":"RegistroFrete"},"status_code":{"type":"String","value":"0"},"status_message":{"type":"String","value":""}}}
+2020/07/10 21:52:37 - startProcess instanceId = a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:37 - Insert value - Key: param_in - Value: 
+2020/07/10 21:52:37 - Insert value - Key: param_out - Value: 
+2020/07/10 21:52:37 - Insert value - Key: autoCompletar - Value: false
+2020/07/10 21:52:37 - Insert value - Key: default_key - Value: 
+2020/07/10 21:52:37 - Insert value - Key: default_route - Value: 
+2020/07/10 21:52:37 - Insert value - Key: default_where - Value: 
+2020/07/10 21:52:37 - Insert value - Key: idLicense - Value: 
+2020/07/10 21:52:37 - Insert value - Key: ntt_number - Value: 
+2020/07/10 21:52:37 - Insert value - Key: obsLogBanco - Value: 
+2020/07/10 21:52:37 - Insert value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:52:37 - Insert value - Key: status_code - Value: 0
+2020/07/10 21:52:37 - Insert value - Key: status_message - Value: 
+2020/07/10 21:52:37 - Inserindo dados no Brain
+2020/07/10 21:52:37 - Pegando as variáveis do Brain
+2020/07/10 21:52:37 - getVariableAllBrain - url: https://10.77.0.185/api/ProcessExecutionData?access_token=9h9hHN726H7Y7OptIe5BL3XcXEpnYLp8pSXwCB9qZSOvJAjRKE5nybY3qWvNxDQw&filter={"where":{"piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0"}}
+2020/07/10 21:52:38 - Starting new process instance 
+2020/07/10 21:52:39 - running pesquisa_item
+2020/07/10 21:52:39 - stepAndTalkTo()
+2020/07/10 21:52:39 - Where >>> pesquisa_item
+2020/07/10 21:52:39 - getTask()
+2020/07/10 21:52:39 - getTask action = https://10.77.0.185/engine-rest/task?processInstanceId=a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:39 - taskUser = 
+2020/07/10 21:52:39 - userId = robot_segunda_via_boleto1
+2020/07/10 21:52:39 - claimTask action = https://10.77.0.185/engine-rest/task/a72df929-c2f7-11ea-a1fe-0291a8c4bdf0/claim
+2020/07/10 21:52:39 - claimTask JSONString = {"userId": "robot_segunda_via_boleto1"}
+2020/07/10 21:52:39 - getTask taskId = a72df929-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:39 - getTask processId = a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:39 - GetInstanceVars()
+2020/07/10 21:52:39 - GetInstanceVars action = https://10.77.0.185/engine-rest/process-instance/a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0/variables
+2020/07/10 21:52:40 - GetInstanceVars vars = {"status_message":{"type":"String","value":"","valueInfo":{}},"default_where":{"type":"String","value":"","valueInfo":{}},"obsLogBanco":{"type":"String","value":"","valueInfo":{}},"status_code":{"type":"String","value":"0","valueInfo":{}},"idLicense":{"type":"String","value":"","valueInfo":{}},"process_name":{"type":"String","value":"RegistroFrete","valueInfo":{}},"default_key":{"type":"String","value":"","valueInfo":{}},"ntt_number":{"type":"String","value":"","valueInfo":{}},"autoCompletar":{"type":"String","value":"false","valueInfo":{}},"default_route":{"type":"String","value":"","valueInfo":{}}}
+2020/07/10 21:52:40 - startProcessControl()
+2020/07/10 21:52:40 - startProcessControl action = https://10.77.0.185/engine-rest/process-definition/key/BPALicense/start
+2020/07/10 21:52:40 - startProcessControl JSONString = {"variables":{"processo": {"value": "RegistroFrete","type":"String"},"ticket": {"value": "","type":"String"},"dataregistro": {"value": "","type":"String"},"bpmroute": {"value": "","type":"String"},"bpmkey": {"value": "","type":"String"},"statusrobo": {"value": "0","type":"String"},"statusmessage": {"value": "","type":"String"},"hostname": {"value": "EC2AMAZ-9591VC8","type":"String"},"observacao": {"value": "","type":"String"}}}
+2020/07/10 21:52:40 - startProcessControl instanceId = a8bfbcc1-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:40 - Update value - Key: autoCompletar - Value: false
+2020/07/10 21:52:40 - Update value - Key: default_key - Value: 
+2020/07/10 21:52:40 - Update value - Key: default_route - Value: 
+2020/07/10 21:52:40 - Update value - Key: default_where - Value: 
+2020/07/10 21:52:40 - Update value - Key: idLicense - Value: a8bfbcc1-c2f7-11ea-a1fe-0291a8c4bdf0
+2020/07/10 21:52:40 - Update value - Key: ntt_number - Value: 
+2020/07/10 21:52:40 - Update value - Key: obsLogBanco - Value: 
+2020/07/10 21:52:40 - Update value - Key: process_name - Value: RegistroFrete
+2020/07/10 21:52:40 - Update value - Key: status_code - Value: 0
+2020/07/10 21:52:40 - Update value - Key: status_message - Value: 
+2020/07/10 21:52:40 - stepTo >>> pesquisa_item
+2020/07/10 21:52:41 - pesquisa_item
+2020/07/10 21:52:41 - Transformando step em PEP8
+2020/07/10 21:52:41 - Existe o python
+2020/07/10 21:52:41 - executePython(filePieces) >>> "pesquisa_item.pesquisa_item"
+2020/07/10 21:52:41 - Executando o Python
+2020/07/10 21:52:42 - Resultado do Shell >>> 
+2020/07/10 21:52:42 - pythonJson >>> VAZIO
+2020/07/10 21:52:42 - Lendo o JSON de saida
+2020/07/10 21:52:42 - Retorno do Shell: 
+
+{"rpa":{"brain":[{"created":"2020-07-10T21:52:37.000Z","id":1993275,"key":"param_in","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:37.000Z","id":1993276,"key":"param_out","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:37.000Z","id":1993277,"key":"autoCompletar","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"false"},{"created":"2020-07-10T21:52:37.000Z","id":1993278,"key":"default_route","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:37.000Z","id":1993279,"key":"default_key","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:37.000Z","id":1993280,"key":"default_where","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:37.000Z","id":1993281,"key":"idLicense","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"a8bfbcc1-c2f7-11ea-a1fe-0291a8c4bdf0"},{"created":"2020-07-10T21:52:37.000Z","id":1993282,"key":"ntt_number","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:37.000Z","id":1993283,"key":"obsLogBanco","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""},{"created":"2020-07-10T21:52:37.000Z","id":1993284,"key":"process_name","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"RegistroFrete"},{"created":"2020-07-10T21:52:37.000Z","id":1993285,"key":"status_code","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":"0"},{"created":"2020-07-10T21:52:37.000Z","id":1993286,"key":"status_message","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"value":""}],"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"a72dd200-c2f7-11ea-a1fe-0291a8c4bdf0","processId":8,"status":"","statusMessage":""}}
+2020/07/10 21:52:42 - Observação: 
+2020/07/10 21:52:42 - Status message: 
+2020/07/10 21:52:42 - Validando status da execução e da rota
+2020/07/10 21:52:42 - finalizing stepTo - where:pesquisa_item, statuscode 0, returning 1, defaultRoute , defaultKey 

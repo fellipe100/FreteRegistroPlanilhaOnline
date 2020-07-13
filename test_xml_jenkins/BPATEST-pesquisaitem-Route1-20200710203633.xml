@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0"><testcase classname="pesquisaitem" name="test_collect_all_spreedshet_data" time="0.000"><error type="builtins.NameError" message="name 'collect_all_spreedshet_data' is not defined"><![CDATA[Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\ProgramData\Anaconda3\lib\unittest\case.py", line 628, in run
+    testMethod()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\nose\case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "C:\BPAEngine\git\FreteRegistroPlanilhaOnline-\src\pesquisaitem.py", line 124, in test_collect_all_spreedshet_data
+    all_data = collect_all_spreedshet_data()
+NameError: name 'collect_all_spreedshet_data' is not defined
+]]></error></testcase></testsuite>

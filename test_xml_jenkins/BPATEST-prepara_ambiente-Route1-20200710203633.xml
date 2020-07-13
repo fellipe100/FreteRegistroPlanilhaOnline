@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="3" errors="0" failures="0" skip="0"><testcase classname="prepara_ambiente" name="test_open_sap_logon" time="3.516"><system-out><![CDATA[Unit Testing open_sap_logon():
+	Results: [-1, -2, -3, '']
+	Expected Results: [-1, -2, -3, '']
+open_sap_logon: Success!
+
+
+]]></system-out></testcase><testcase classname="prepara_ambiente" name="test_login_sap" time="0.766"><system-out><![CDATA[Unit Testing test_login_sap():
+	Results: ['QA0']
+	Expected Results: ['QA0']
+open_sap_logon: Success!
+
+
+]]></system-out></testcase><testcase classname="prepara_ambiente" name="test_enter_transaction_sap" time="0.109"><system-out><![CDATA[Unit Testing enter_transaction_sap():
+	Results: [-4]
+	Expected Results: [-4]
+enter_transaction_sap: Success!
+
+
+]]></system-out></testcase></testsuite>

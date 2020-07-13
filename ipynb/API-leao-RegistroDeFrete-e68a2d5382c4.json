@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "api-leao-registrodefrete",
+  "private_key_id": "e68a2d5382c4fdc509bf68d394730515da74db59",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCj4g89OiwkD22H\nL1BE0mtlC9ocDAK1TcdS7jcmEAvsAje8aj+GMqjUKyxNt/NuTTPYrsoz2HnZWhgO\n/kap+rBaNib5ik1hxHAUSlJlV2wVALYhdd9Da7BrjpP+dzK18usfwxHxQAobjtlw\ne2vussWlywv/9eL76NFyYx8f1oBNfleCU5MVOOPKZvQ23Pi9vp728jeJ89nBMlYu\nsXvl6y/+hfY/1QNN5gy0DHi4h44b/PCaJ/gTuGUEfFRa7N0rlkhM8PImjPrgjWUd\nRd/t7tAVGoSL0H9QeJlYA4IdKKm81Si5IdSiws+nta4OHb8i9FX0Izr/HPZDqDgm\n1Y7uyiUrAgMBAAECggEAA3r48RQiMD92B2mIaxDyhocI6JDGVSYqT7P1aETtxXy9\nxRRjwvk8DD10FGmnegLNUUW5z5eouf/0anHl+3tY19TPx3uzbWcbLKMjbgZV3Xnr\nyqwfkLJhx11gytLdn28upR8JOE/KDZAsEZWqOVVPzNfFRBG4JbqdCbCnNMLjOKh0\ngDlVqqqNqg5q0XVup7OqS+xigTioS9vsVtZufbey07cfrJvy9Doxp6+zIhHjdmie\nZ/yqPvC3C/PNsCYlqBTJEuaFUpkjqu70ShXzEM0FhDqiLvXV5d2dtiwBJG8/V5vp\nVqQC89WMJtrR5ejuc5YE9kGvGNcouuteJSjmXslX4QKBgQDdW0VhSO22T5ERJamY\nOtUy48/RUkVT3Fg3RPu7csKK2S7hRVO+Bah/sifuKOFaY876SzihG0CsUcwR6Kwf\ncyAa3mXH2yRvfU45u0HBdmSvn9Cz/M96ZMmQDSFOmTl6h6RGZU+r/34Mr+x0aWAE\nbcIcPpJUwqcaeyC1PJ0QCiZs+wKBgQC9iBe+EPialoViMFApAxeNoGGOpSqe0GUa\nGd6PwNrHBidoddjd88AhD1QJ7EZPn3GcSi0iu3IFm2SnsUyV4Alev0q115eCXIwp\nBWqUV18sxcAeeXGAugmJRr37XxNjESFCYwXrTjxXCOWrjHTTJkQdCcyvxMhEPmBl\nIYDLd7FRkQKBgD+zgGfawO3yP+EbYY75f1lBzhCDCIh1pL1jEL6E7A9hKOiTNuI8\nZp04+9zBzvhgOLQ26XkTiq0MbRnKR55VVyvkTI4TNo0PFm/uv6GZHKid6UWiv2KN\nlqPp42fnGG92kYPgq+jngbLM/dMScBtWKsJOD3Zs/gHU5TjC1MBE64H5AoGAJMtt\n6I085i4AmQ5OEZgzE2Cmb93qx0gnyIhrJ7dGActVDTeLsZMnooNqSj7fa4fFs5TG\n7G49dY80XEXUW2hSCV3TsDe5hypWX4RYq5HGvVdqs7/Z5Ca5wTfFnC5aAiqKLWwx\n8vuORUtJ4yLybyeHo6eKYDkws+b0Kc32Rgnnl7ECgYEAtDL77zZL0ykGSWzycO5P\ngqb2tS9aaLruATzbkgVIv36ACONLzYWWvNbcUgFXCEkC9JUK9gboJp3RbyWOImUE\nkpwwmJDEc4hjHJBZrvFbDYgTKJc5WX69D44ffd2BxutyLXqxXQuoMsvJ5eJcteC6\nyooZ1qpkXxnhVkRSP7OSekQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "spreadsheet-prd@api-leao-registrodefrete.iam.gserviceaccount.com",
+  "client_id": "114177787813673613270",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/spreadsheet-prd%40api-leao-registrodefrete.iam.gserviceaccount.com"
+}
