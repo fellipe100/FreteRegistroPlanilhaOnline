@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # coding: utf-8
 
 # In[3]:
@@ -7,6 +7,7 @@
 import pieces # Somente necessário se for utilizar algo do "pieces..." (Ex: lib os, path)
 
 enviroment = "hmg"
+tempo = 0.9
 
 # Folder Paths
 

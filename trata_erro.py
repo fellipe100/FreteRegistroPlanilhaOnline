@@ -1,6 +1,3 @@
-#Automatic 'import pieces' by BPA Deploy - Nose Testing
-import pieces
-
 #!/usr/bin/env python
 # coding: utf-8
 

@@ -1,6 +1,3 @@
-#Automatic 'import pieces' by BPA Deploy - Nose Testing
-import pieces
-
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -68,6 +65,7 @@ def openWebSheet(authFile, worksheet, activeSheet=''):
     # activeSheet (optional)   =    title of the sheet to be activated and returned. If empty, returns default sheet  
     
     scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
+    # pieces.lib.time.sleep(25)
     creds = ServiceAccountCredentials.from_json_keyfile_name(authFile, scope)
     client = gspread.authorize(creds)
     

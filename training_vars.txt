@@ -1,1 +1,1 @@
-{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","observacao":"","piid":"","processId":"","status":"Sucesso","statusMessage":""}}
+{"rpa":{"brain":{},"defaultKey":"","defaultRoute":"","multiProducer":[],"observacao":"","piid":"","processId":"","status":"Sucesso","statusMessage":""}}

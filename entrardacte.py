@@ -1,7 +1,4 @@
-#Automatic 'import pieces' by BPA Deploy - Nose Testing
-import pieces
-
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # coding: utf-8
 
 # <h1>Processo Registro de Frete Planilha Online</h1>
@@ -22,14 +19,21 @@ import pieces
 from core import *
 
 def entrardacte():
+    tempo = 0.5
     print("\n\n[Step]--> entrardacte - INICIO")
     
-    # Não precisa, Fellipe -> estou avaliando...
+    
+    #pieces.lib.msgbox("função GET_RUNNIG_SESSION A", timeout=tempo)
     session, application = pieces.lib_processo.get_running_sap_session()
     
+    #pieces.lib.msgbox("verificar se sap ainda aberto", timeout=tempo)
+    #pieces.lib.msgbox("função GET_RUNNIG_SESSION B")
     
     #VALOR A SER PESQUISADO NA PLANILHA 
     value = "OK"
+    #pieces.lib.msgbox("função GET_RUNNIG_SESSION C")
+    
+    pieces.lib.msgbox("verificar se sap ainda aberto - 2", timeout=tempo)
     refactor_data_dacte(session,value)
     
     pieces.lib.set_default_key("finalizadocomsucesso")
@@ -56,16 +60,19 @@ def entrardacte():
 # In[2]:
 
 
-def refactor_data_dacte(session, value):    
+def refactor_data_dacte(session, value):  
+    tempo = 0.5  
     # value --- Texto para procurar na celula
-    
+
+
+    value = value.upper()
+
     email_lote = [] # Conteudo de lote do e-mail
     
     all_status_dacte = ""
     all_key_process_id = ""
     all_status_dacte_error = ""
     all_key_process_id_error = ""
-    
     processing = True
     error_message = None
     
@@ -73,26 +80,53 @@ def refactor_data_dacte(session, value):
     CTE_INDEX = 3
     USER_INDEX = 25
     
+    cont_sucesso = 0
+    cont_erro = 0
+    
+    contador = 0
+    
     while (processing):
         
         try:
+            
             pieces.lib.filelog("acessando websheet Pendentes")
+            #pieces.lib.msgbox("COMECO") 
             sheet = pieces.lib_processo.openWebSheet("API-leao-RegistroDeFrete-e68a2d5382c4.json","Casos-Dacte","Pendentes") 
 #             #Apenas para testes
 #             sheet = pieces.lib_processo.openWebSheet('mytest-273716-aaddc43030cc.json', 'meuTeste', 'Pendentes')
             pieces.lib.filelog("Pesquisando valor na planilha Pendentes")
-            cell = cell_find(sheet,value)
-            
-            
-            pieces.lib.filelog("linha encontrada")
-            row = sheet.row_values(cell.row)
-            print("Row:  ",row)
-            pieces.lib.filelog("Registrando DACTE para: {}".format(row[KEY_ACESS_INDEX]))
-            row[0] = str(row[KEY_ACESS_INDEX])
-            
-            number_miro = register_dacte(session,row[KEY_ACESS_INDEX])
 
-            pieces.lib.filelog(number_miro)
+            # Ticket 7887, pega valor da planilha do campo status ignorando letra maiuscula e minusculo
+            value = sheet.cell(2,27).value
+
+            pieces.lib.filelog("valor do campo status: " + str(value) )
+
+            if(value != ""):
+            	cell = cell_find(sheet,value)
+            else:
+                cell = cell_find(sheet,"Valor Invalido")
+
+
+            pieces.lib.filelog("cell: " + str(cell) )
+           
+            pieces.lib.filelog("linha encontrada")
+
+            row = sheet.row_values(cell.row)
+
+            pieces.lib.filelog("row: " + str(row) )
+            
+            pieces.lib.filelog("Registrando DACTE para: {}".format(row[KEY_ACESS_INDEX]))
+            
+            row[0] = str(row[KEY_ACESS_INDEX])
+            pieces.lib.filelog("row[0] linha Dacter: " + str(row[0]) )
+            pieces.lib.filelog("row: " + str(row))
+            
+            #pieces.lib.msgbox("TESTE A")
+            number_miro = register_dacte(session,row[KEY_ACESS_INDEX])
+            #pieces.lib.msgbox("Saindo Funcao" , timeout=tempo) 
+            #pieces.lib.msgbox(number_miro) 
+
+            pieces.lib.filelog("number_miro: " + str(number_miro) )
 
             if (number_miro.find("Miro Gerada") == 0):
                 process_status = "Sucesso"
@@ -101,20 +135,28 @@ def refactor_data_dacte(session, value):
                 pieces.lib.filelog("Movendo para Concluidos")
                 error_message = move_ok_spreadsheet(row)
                 if (error_message is None):
+                    pieces.lib.filelog("Deletando linha")
+                    pieces.lib.msgbox("Deletando linha" , timeout=tempo) 
                     sheet.delete_row(cell.row)
                 else:
+                    pieces.lib.filelog("Atualizando Linha")
+                    pieces.lib.msgbox("Atualizando linha" , timeout=tempo) 
                     sheet.update_cell(cel.row,cel.col,process_status)
-                #Populating info for Watch
-                if (all_status_dacte == ""):
-                    all_status_dacte = "Registrado com sucesso = {}".format(number_miro)
-                else:
-                    all_status_dacte = all_status_dacte + "|" + "Registrado com sucesso = {}".format(number_miro)
-
-                if (all_key_process_id == ""):
-                    all_key_process_id = str(row[CTE_INDEX])
-                else:
-                    all_key_process_id = all_key_process_id  + "|" + str(row[CTE_INDEX])
-
+                    # teste fellipe
+                    #sheet.delete_row(cell.row) 
+                
+                usuario_processo_sucesso = str(row[25])
+                pieces.lib.filelog("usuario_processo_sucesso: " + str(usuario_processo_sucesso) )
+                
+                
+                all_status_dacte = "Registrado com sucesso = {}".format(number_miro)  + "|"  + str(usuario_processo_sucesso) + "|" + str(row[0])
+                
+                pieces.lib.set_var_process("status_dacte_sucesso{}".format(contador) , all_status_dacte)
+       
+                cont_sucesso += 1
+               
+                #pieces.lib.msgbox("Envia email" , timeout=tempo)    
+                    
                 #Prepara e-mail
                 if (row[USER_INDEX] == ""):
                     pieces.lib.filelog("Enviando Email Individual")
@@ -127,6 +169,8 @@ def refactor_data_dacte(session, value):
 
             else:
                 process_status = "ERRO"
+                pieces.lib.filelog("ERRO AO GERAR A MIRO")
+                usuario_processo_erro = str(row[25])
                 print(row)
                 #row[cell.col-1] = process_status
                 #row.append(number_miro)
@@ -144,28 +188,28 @@ def refactor_data_dacte(session, value):
 #                     print("primeira tentativa")
                     row.append(number_miro)
                     row.append(1)
-                if try_count < 5:
-                    error_message = move_retry_spreadsheet(row)
-                    pieces.lib.filelog("Movendo para Analise Robo")
-                else:
-                    error_message = move_failed_spreadsheet(row)
-                    pieces.lib.filelog("Movendo para Analise Manual")
+                #if try_count < 5:
+                #    error_message = move_retry_spreadsheet(row)
+                #    pieces.lib.filelog("Movendo para Analise Robo")
+                #else:
+                error_message = move_failed_spreadsheet(row)
+                pieces.lib.filelog("Movendo para Analise Manual")
                 #Final modificaçao
                 
                 if (error_message is None):
                     sheet.delete_row(cell.row)
                 else:
                     sheet.update_cell(cel.row,cel.col,process_status)
-                #Populating info for Watch
-                if (all_status_dacte_error == ""):
-                    all_status_dacte_error = "Houve erro ao registrar = {}".format(number_miro)
-                else:
-                    all_status_dacte_error = all_status_dacte_error + "|" + "Houve erro ao registrar = {}".format(number_miro)
-
-                if (all_key_process_id_error == ""):
-                    all_key_process_id_error = str(row[CTE_INDEX])
-                else:
-                    all_key_process_id_error = all_key_process_id_error  + "|" + str(row[CTE_INDEX])
+              
+                pieces.lib.filelog("usuario_processo_erro: " + str(usuario_processo_erro) )
+                
+              
+                all_status_dacte_error = "Houve erro ao registrar = {}".format(number_miro) + "|" + str(usuario_processo_erro) + "|" + str(row[0])
+                
+                cont_erro += 1
+                
+                pieces.lib.set_var_process("status_dacte_error{}".format(contador), all_status_dacte_error)            
+     
 
                 #Prepara e-mail
                 if (row[USER_INDEX] == ""):
@@ -178,14 +222,25 @@ def refactor_data_dacte(session, value):
                                       "cte_number": row[CTE_INDEX],
                                       "status": "Houve erro ao registrar = {}".format(number_miro)})
                         
+                pieces.lib.msgbox("Saiu A" , timeout=1)     
+                    
         except:
             pieces.lib.filelog("Finalizando planilha")
             processing = False
+            
+        contador += 1 
+            
+    pieces.lib.filelog("cont_sucesso: " + str(cont_sucesso) )
+    pieces.lib.filelog("cont_erro: " + str(cont_erro) )
         
-    pieces.lib.set_var_process("processo_chave_id", all_key_process_id)
-    pieces.lib.set_var_process("status_dacte", all_status_dacte)
-    pieces.lib.set_var_process("processo_chave_id_error", all_key_process_id_error)
-    pieces.lib.set_var_process("status_dacte_error", all_status_dacte_error)
+    #valor_total_Sucesso = str(cont_sucesso)
+    #valor_total_Erro    = str(cont_erro)      
+    
+    #pieces.lib.filelog("valor_total_Sucesso: " + str(valor_total_Sucesso) )
+    #pieces.lib.filelog("valor_total_Erro: " + str(valor_total_Erro) )
+            
+    #pieces.lib.set_var_process("processo_chave_id_sucesso", valor_total_Sucesso)
+    #pieces.lib.set_var_process("processo_chave_id_erro", valor_total_Erro)
     
     #Envia e-mail em lote
     if len(email_lote) > 0:
@@ -193,7 +248,7 @@ def refactor_data_dacte(session, value):
         envia_email_lote(email_lote)
         pieces.lib.filelog("E-mail em lote enviado")
     
-    retry_manual_rows()
+    #retry_manual_rows()
 
     return
 
@@ -285,6 +340,7 @@ def move_retry_spreadsheet(info):
     #RETURNING VALIDATIONS
     return error_message
 
+#does not work
 def retry_manual_rows():
     error_message = None
     final_rows = []
@@ -360,24 +416,58 @@ def entrardacte_sure():
 
 def register_dacte(session,case_for_register):
     try:
+        
+        
+        tempo = 0.5
+        pieces.lib.msgbox("register Date 1 " , timeout=tempo)
+        #pieces.lib.time.sleep(5) 
+        
         setup_clean_fields_SAP(session)
         #cola a chave do caso para pesquisar
         session.findById("wnd[0]/usr/txtS_CTEID-LOW").text = case_for_register
+        #pieces.lib.msgbox("Passo A")
+        #pieces.lib.time.sleep(5)
+        #pieces.lib.msgbox("A")
+        
         #Pressiona o botaao de pesquisa
         session.findById("wnd[0]/tbar[1]/btn[8]").press()
+        #pieces.lib.time.sleep(3)
+        
+        pieces.lib.msgbox("register Date 2 - manual  A" , timeout=tempo)
+        #pieces.lib.time.sleep(5) 
+        
+        #pieces.lib.msgbox("Passo B") 
         #seleciona a unica linha
         session.findById("wnd[0]/usr/cntlCONTAINER_100/shellcont/shell").selectedRows = "0"
+        #pieces.lib.msgbox("Passo C")
         #Pressiona o botao para gerar a DACTE
         session.findById("wnd[0]/tbar[1]/btn[18]").press()
+        #pieces.lib.msgbox("Passo D")
+        
+        pieces.lib.msgbox("register Date 2 - manual  B" , timeout=tempo)
+        #pieces.lib.time.sleep(3) 
+        #pieces.lib.msgbox("D")
+        
         #Coletando o numero da miro
         number_miro = session.findById("wnd[1]/usr/txtMESSTXT1").text
-        print(number_miro)
         pieces.lib.filelog("numero miro {}".format(number_miro))
         #Fechando o pop-up
+        #pieces.lib.msgbox("Passo E")
         session.findById("wnd[1]/tbar[0]/btn[0]").press()
+        
+        pieces.lib.msgbox("register Date 2 - manual  C" , timeout=tempo)
+        #pieces.lib.time.sleep(3) 
+        
         #retornar para a tela anterior
+        #pieces.lib.msgbox("Passo F") 
         session.findById("wnd[0]/tbar[0]/btn[3]").press()
         setup_clean_fields_SAP(session)
+        
+        pieces.lib.msgbox("register Date 2 - manual  D" , timeout=tempo)
+        #pieces.lib.time.sleep(3) 
+        #pieces.lib.msgbox("G_HHH")
+        
+        #pieces.lib.msgbox("Passo G")  
     except Exception as e:
         try:
             error_message = session.findById("wnd[1]/usr/txtMESSTXT1").text
@@ -399,7 +489,9 @@ def register_dacte(session,case_for_register):
 #             pieces.lib.set_var_process("processo_chave_id", case_for_register)
 #             pieces.lib.set_var_process("status_dacte", error_message)
             return error_message
-            
+           
+        
+        
     return number_miro
 
 def setup_clean_fields_SAP(session):
@@ -481,6 +573,7 @@ def envia_email(all_text_row):
     body = footer
 #     receiver_email = "melody@bpatechnologies.com"
     receiver_email = "centraldefretes@leaoalimentosebebidas.com.br"
+  #  receiver_email = "fellipe.pereira@bpatechnologies.com;centraldefretes@leaoalimentosebebidas.com.br"
     subject = title
 
     # Create a multipart message and set headers
@@ -556,6 +649,7 @@ def envia_email_lote(all_text_content):
     body = footer
 #     receiver_email = "melody@bpatechnologies.com"
     receiver_email = "centraldefretes@leaoalimentosebebidas.com.br"
+    #receiver_email = "fellipe.pereira@bpatechnologies.com"
     subject = title
 
     # Create a multipart message and set headers

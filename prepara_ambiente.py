@@ -1,7 +1,4 @@
-#Automatic 'import pieces' by BPA Deploy - Nose Testing
-import pieces
-
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # coding: utf-8
 
 # <h1>Processo Registro de Frete Planilha Online</h1>
@@ -43,7 +40,7 @@ import pieces
 # • Efetuar Login no sistema<br>
 # • Acessar a transação ZLES010T<br>
 
-# In[3]:
+# In[2]:
 
 
 from core import *
@@ -51,9 +48,9 @@ from core import *
 def prepara_ambiente():
     print("\n\n[Step]--> preparaAmbiente - INICIO")
     
+    pieces.lib.filelog("\n\n[Step]--> preparaAmbiente - INICIO") 
     pieces.lib.close_process("saplogon.exe")
-    
-    
+  
     '''
       Lógica do excel aqui
     '''
@@ -62,20 +59,31 @@ def prepara_ambiente():
     pieces.lib.filelog("saindo da funcao verificado_Dados_Excel")
     
     
-    
+    pieces.lib.filelog("Entrou 1")
     open_sap_logon("C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe")
-#     session = login_sap("usr_robos","Bpa@1234*","SAP - QA")
+    #pieces.lib.time.sleep(5)  
+   # session = login_sap("usr_robos","Bpa@1234*","SAP - QA")
 
 #     session = login_sap("USR_ROBOS4","#d6r$M?iE!$#","SAP PRD")
-    session = login_sap("USR_MACRO1","Mac1234;","SAP PRD")
+    pieces.lib.filelog("Entrou 2")
+    # nova senha do sap Mac1234;2 - definida no dia 06/08/2020
+    # nova senha do sap Mac1234;23  - definida no dia 04/11/2020
+    #session = login_sap("USR_MACRO1","Mac1234;23","SAPPRD - 01")
+    # nova senha do sap Mac1234;234  - definida no dia 02/02/2021
+    session = login_sap("USR_MACRO1","Mac1234;234","SAPPRD - 01")
+    # session = login_sap("USR_MACRO1","Mac1234;","sap prd") # não funciona
+    pieces.lib.filelog("Entrou 3")
     
     try:
         pieces.lib.filelog("checando se já possui sessão aberta")
+        pieces.lib.msgbox("Teste fechando botão, wnd[1]" , timeout=tempo) 
         session.findById("wnd[1]").close()
         pieces.lib.filelog("Já possui sessão aberta, finalizando todas as sessões")
         session, application = pieces.lib_processo.get_running_sap_session()
+        #pieces.lib.time.sleep(30) 
         enter_transaction_sap(session, "ex", check_field_id=None)
         pieces.lib.set_default_key("finalizadosemsucesso")
+        
 
     except:
         pieces.lib.filelog("Efetuando login na transação")
@@ -100,16 +108,23 @@ def open_sap_logon(path_sap, *, timeout=60):
     # validate inputs
     if not isinstance(path_sap, str):
         return -3
+
+    pieces.lib.filelog("sap - A")  
     if not pieces.lib.os.path.exists(path_sap):
         return -2
     
+    pieces.lib.filelog("sap - 1") 
     timer = pieces.lib.Timer(timeout)
     while timer.not_expired:
         
         # Verifying whether a SAP logon window already exists
         try:
+            pieces.lib.filelog("sap - B")    
+            pieces.lib.time.sleep(2) 
             sap_app = pieces.pywinauto.application.Application(backend='uia').connect(title_re='.*SAP Logon.*')
+            pieces.lib.time.sleep(2)  
             sap_app_top_window = sap_app.top_window()
+            pieces.lib.time.sleep(2) 
             return sap_app_top_window
         except pieces.pywinauto.application.findwindows.ElementNotFoundError:
             pass
@@ -151,16 +166,37 @@ def login_sap(username, password, env, *, timeout=60):
     if not isinstance(password, str):
         pieces.lib.iamlost("login_sap(): Invalid password >> " + str(password))
     
+    #pieces.lib.msgbox("Inicio")
+    
     try:
         env = env.upper()
     except:
         return -2
-    if env not in ["SAP - QA", "SAP PRD"]:
+    
+    #teste
+    '''
+    if env not in ["SAP - QA", "sap prd" , "SAPPRD - 01"]:
         pieces.lib.filelog("Attention!\n\nlogin_sap() 'env' is invalid >> {}\n\nIt wont fix itself!".format(env))
         return -3
+    '''
+    
+    #import pygetwindow as gw
+
+    #pieces.lib.time.sleep(5) 
+    #win = gw.getWindowsWithTitle('Monitor de CTe de Entrada')[0]
+    #win.activate()
+    
+    #pieces.lib.msgbox("Teste" , timeout=1)  
+    #pieces.lib.time.sleep(2) 
+    
     
     timer = pieces.lib.Timer(timeout)
     while timer.not_expired:
+        
+        #win.activate()
+        pieces.lib.msgbox("Teste 2" , timeout=0.5)  
+        #pieces.lib.time.sleep(2) 
+       
         SapGuiAuto = pieces.win32com.client.GetObject('SAPGUI')
         if not type(SapGuiAuto) == pieces.win32com.client.CDispatch:
             return -5
@@ -179,19 +215,25 @@ def login_sap(username, password, env, *, timeout=60):
                 return -6
             else:
                 return -7
-            
+
         if not type(connection) == pieces.win32com.client.CDispatch:
             application = None
             SapGuiAuto = None
             return -8
 
         session = connection.Children(0)
+
         if not type(session) == pieces.win32com.client.CDispatch:
             connection = None
             application = None
             SapGuiAuto = None
             return -9
-
+       
+        #win.activate()
+        pieces.lib.msgbox("Teste 3 ASBC" , timeout=0.5)  
+        #pieces.lib.time.sleep(2) 
+        
+        #pieces.lib.msgbox("AA 1")   
         MAIN_SAP_WINDOW = "wnd[0]"
         session.findById(MAIN_SAP_WINDOW).maximize
         
@@ -206,6 +248,11 @@ def login_sap(username, password, env, *, timeout=60):
         
         # Enter
         session.findById("wnd[0]").sendVKey(0)
+        
+        #win.activate()
+        pieces.lib.msgbox("FINAL" , timeout=0.5)  
+        #pieces.lib.time.sleep(2) 
+    
         
         # try to enter any text @ transaction edit field, if it works, we are online
         ID_FIELD_TRANSACTION = "wnd[0]/tbar[0]/okcd"
@@ -262,7 +309,7 @@ def enter_transaction_sap(session, transaction_code, *, check_field_id=None):
     return 1
 
 
-# In[4]:
+# In[3]:
 
 
 # Verificador de registro da planilha do excel 
@@ -270,21 +317,42 @@ def verificado_Dados_Excel():
     # value --- Texto para procurar na celula
     
     scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-    creds = pieces.ServiceAccountCredentials.from_json_keyfile_name("API-leao-RegistroDeFrete-e68a2d5382c4.json", scope)  
-    client = pieces.gspread.authorize(creds)
     
-    sheet = client.open("Casos-Dacte").sheet1
+    validaApi = True
+    creds = ""
+    client = ""
+    sheet = ""
     
+    while(validaApi):
+            try:
+                # Tempo para se conectar a API e evitar problemas de requisição do google 
+                pieces.lib.time.sleep(25) 
+                creds = pieces.ServiceAccountCredentials.from_json_keyfile_name("API-leao-RegistroDeFrete-e68a2d5382c4.json", scope)  
+                client = pieces.gspread.authorize(creds)
+                sheet = client.open("Casos-Dacte").sheet1
+                validaApi = False
+            except Exception as e: # work on python 2.x
+                pieces.lib.filelog(str(e))
+               
+
     validador = True
-    
+
     while(validador):
-        pieces.lib.time.sleep(10)
-        valor = sheet.cell(2 , 1).value
-        pieces.lib.time.sleep(10)
-        if(valor != ""):
+        #pieces.lib.time.sleep(10)
+        valorChave = str(sheet.cell(2 , 1).value)
+        valorUsuario = str(sheet.cell(2 , 2).value)
+        valorOk = str(sheet.cell(2 , 3).value)   
+           
+        #if(valorChave != "" and valorUsuario != "" and valorOk != ""):
+        if(valorChave != ""):
+            pieces.lib.filelog("valorChave:  " + str(valorChave) )
+            pieces.lib.filelog("valorUsuario: " + str(valorUsuario) )            
+            pieces.lib.filelog("valorOk: " + str(valorOk) )
+            #if valorOk == "OK":
             validador = False
-        print("Planilha esta vazia")
-       
+        #pieces.lib.filelog("Planilha esta vazia")
+   
+            
     pieces.lib.filelog("Saindo da funcao e indo processar no sap")
     return 
 
@@ -302,7 +370,7 @@ def verificado_Dados_Excel():
 # <h4>Passos PreparaAmbiente_Sure</h4><br>
 # • Geração de Log<br>
 
-# In[5]:
+# In[4]:
 
 
 def prepara_ambiente_sure():
@@ -326,7 +394,7 @@ def prepara_ambiente_sure():
 # <br>
 # <p>Para fins de desenvolvimento interativo, é possível simular a estrutura do framework (modo Training) e rodar o código do StepName diretamente no Jupyter:</p>
 
-# In[6]:
+# In[ ]:
 
 
 from core import *
@@ -342,7 +410,7 @@ if isdebug(__name__): # somente rodar o codigo no Jupyter
 # 
 # Em contradição ao jeito que programavamos em .ahk, o "sentido do desenvolvimento de código" agora deverá respeitar a metodologia de TDD (test driven development) - Primeiramente desenha-se  as funções de teste unitário e <b>somente então</b> inicia-se a codificação em si, com o o objetivo de satisfazer os testes unitários.</p>
 
-# In[17]:
+# In[ ]:
 
 
 from core import *
@@ -510,6 +578,7 @@ def test_enter_transaction_sap():
 
 # permitir os testes de serem rodados somente via Jupyter
 if isDebug(__name__):
+    test_verificado_Dados_Excel()
     test_open_sap_logon()
     test_login_sap()
     test_enter_transaction_sap()

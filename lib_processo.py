@@ -45,32 +45,55 @@ def get_running_sap_session():
     
     pieces.lib.filelog("[[ get_running_sap_session ]]")
     
+    #pieces.lib.time.sleep(15)
+    #pieces.lib.msgbox("função GET_RUNNIG_SESSION - SAPGUI - A")
+    #pieces.lib.time.sleep(10)
+    import pygetwindow as gw
+
+    #pieces.lib.time.sleep(5) 
+    win = gw.getWindowsWithTitle('Monitor de CTe de Entrada')[0]
+    win.activate()
+    
     SapGuiAuto = pieces.win32com.client.GetObject('SAPGUI')
+    
     if not type(SapGuiAuto) == pieces.win32com.client.CDispatch:
         return -2
-
+    
     # Verifying whether a SAP logon window already exists
     timer = pieces.lib.Timer(10)
     RETURN_TITLE = 0
     sap_exists = False
     try:
+        
+        #pieces.lib.msgbox("função GET_RUNNIG_SESSION - SAPGUI - B")
+        #pieces.lib.time.sleep(5) 
+        
         sap_app = pieces.pywinauto.application.Application(backend='uia').connect(class_name='SAP_FRONTEND_SESSION')
 
         # Get the correct window
         # Can not be hidden (title = "") and can not be "SAP Logon"
         for w in sap_app.windows():
+            #pieces.lib.msgbox("função GET_RUNNIG_SESSION - SAPGUI - C - if")
+            win.activate()
+            #pieces.lib.time.sleep(5) 
             window_title = w.texts()[RETURN_TITLE]
             if not "SAP Logon" in window_title and window_title != "":
                 sap_exists = w
                 break
 
         if sap_exists:
+            #pieces.lib.msgbox("função GET_RUNNIG_SESSION - SAPGUI - C - focus")
+            win.activate()
             sap_app_top_window = sap_exists
             sap_app_top_window.set_focus()
     except pieces.pywinauto.application.findwindows.ElementNotFoundError:
         
         pass
 
+    #pieces.lib.msgbox("função GET_RUNNIG_SESSION - SAPGUI - GETSCRIPTINGENGINE" , timeout=3)
+    win.activate()
+    
+    #pieces.lib.time.sleep(5) 
     application = SapGuiAuto.GetScriptingEngine
 
     # Return existing SAP if already online
@@ -79,6 +102,9 @@ def get_running_sap_session():
     while session is None and sap_exists and timer.not_expired:
         session = application.ActiveSession
             
+    #pieces.lib.msgbox("saindo da função GET_RUNNIG_SESSION - retorno")    
+    win.activate()
+    
     return session, application
 #-------------------------------------------------------------------------------------------------------------------------------
 def define_date_plus_interval(starting_date, interval):
